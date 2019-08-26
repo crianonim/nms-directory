@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nms-directory/static/css/main.78e12cb4.chunk.css",
+    "main.js": "/nms-directory/static/js/main.98c00e75.chunk.js",
+    "main.js.map": "/nms-directory/static/js/main.98c00e75.chunk.js.map",
+    "runtime~main.js": "/nms-directory/static/js/runtime~main.609a1a4c.js",
+    "runtime~main.js.map": "/nms-directory/static/js/runtime~main.609a1a4c.js.map",
+    "static/js/2.b573ea27.chunk.js": "/nms-directory/static/js/2.b573ea27.chunk.js",
+    "static/js/2.b573ea27.chunk.js.map": "/nms-directory/static/js/2.b573ea27.chunk.js.map",
+    "index.html": "/nms-directory/index.html",
+    "precache-manifest.ae1ad1d644d057cf99bc350520b8e1ad.js": "/nms-directory/precache-manifest.ae1ad1d644d057cf99bc350520b8e1ad.js",
+    "service-worker.js": "/nms-directory/service-worker.js",
+    "static/css/main.78e12cb4.chunk.css.map": "/nms-directory/static/css/main.78e12cb4.chunk.css.map"
+  }
+}
