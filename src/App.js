@@ -7,6 +7,7 @@ function App() {
   const [nameFilter, setNameFilter] = useState("");
   const [activeList, setActiveList] = useState(resources);
   const [activeResource, setActiveResource] = useState(null);
+
   return (
     <div className="App">
       <div className="resources-list">
@@ -50,9 +51,14 @@ function App() {
                     .map((recipe, i) => (
                       <li key={recipe.result.name + i}>
                         {recipe.result.amount} ={" "}
-                        {recipe.ingredients
-                          .map(i => `${i.name} (${i.amount}) `)
-                          .join(" + ")}
+                        {recipe.ingredients.map(i => (
+                          <span
+                            key={i.name}
+                            onClick={() => {
+                              setActiveResource(i.name);
+                            }}
+                          >{`${i.name} (${i.amount}) `}</span>
+                        ))}
                       </li>
                     ))}
                 </ul>
@@ -66,10 +72,17 @@ function App() {
                     .recipesThatUseIngredient(activeResource)
                     .map((recipe, i) => (
                       <li key={recipe.result.name + i}>
-                        {recipe.result.name} {recipe.result.amount} ={" "}
-                        {recipe.ingredients
-                          .map(i => `${i.name} (${i.amount}) `)
-                          .join(" + ")}
+                        <span onClick={() => {
+                              setActiveResource(recipe.result.name);
+                            }}>{recipe.result.name} {recipe.result.amount}</span> ={" "}
+                        {recipe.ingredients.map(i => (
+                          <span
+                            key={i.name}
+                            onClick={() => {
+                              setActiveResource(i.name);
+                            }}
+                          >{`${i.name} (${i.amount}) `}</span>
+                        ))}
                       </li>
                     ))}
                 </ul>
