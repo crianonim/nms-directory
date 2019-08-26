@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import { list } from "./models/model";
+import * as model from "./models/model";
 function App() {
-  const {resources,refiner}=list()
+  const { resources, refiner } = model.list();
   const [nameFilter, setNameFilter] = useState("");
   const [activeList, setActiveList] = useState(resources);
   const [activeResource, setActiveResource] = useState(null);
@@ -22,13 +22,49 @@ function App() {
         ></input>
         <ul>
           {activeList.map(resource => (
-            <li key={resource.Name}>{resource.Name}</li>
+            <li
+              onClick={() => setActiveResource(resource.Name)}
+              key={resource.Name}
+            >
+              {resource.Name}
+            </li>
           ))}
         </ul>
       </div>
 
       <div className="resource-info">
-        {}
+        {activeResource ? (
+          <>
+            <h1>{activeResource}</h1>
+            <h2>Can be Produced in Refiner</h2>
+            <ul>
+              {model
+                .recipesThatProduceInRefiner(activeResource)
+                .map((recipe, i) => (
+                  <li key={recipe.result.name + i}>
+                    {recipe.result.amount} ={" "}
+                    {recipe.ingredients
+                      .map(i => `${i.name} (${i.amount}) `)
+                      .join(" + ")}
+                  </li>
+                ))}
+            </ul>
+            <h2>Is used in Refiner</h2>
+            <ul>
+              {model.recipesThatUseIngredient(activeResource)
+               .map((recipe, i) => (
+                <li key={recipe.result.name + i}>
+                  {recipe.result.name} {" "}
+                  {recipe.result.amount} = {" "}
+                  {recipe.ingredients
+                    .map(i => `${i.name} (${i.amount}) `)
+                    .join(" + ")}
+                </li>
+              ))
+              }
+            </ul>
+          </>
+        ) : null}
       </div>
     </div>
   );
