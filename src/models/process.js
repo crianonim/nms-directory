@@ -32,6 +32,7 @@ const refinery = fs
   .readFileSync(path.join(__dirname, "raw", "refinery.csv"), "utf8")
   .split("\n")
   .map(line => line.split(",").slice(2))
+  .filter(line=>line[0])
   .map(line => ({
     result: { name: line[0], amount: Number(line[1]) },
     process: { name: line[4], duration: Number(line[3]) },

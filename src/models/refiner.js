@@ -81,7 +81,7 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "Coprite",
+   "name": "Faecium",
    "amount": 1
   },
   "process": {
@@ -922,7 +922,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 3
    }
   ]
@@ -1057,17 +1057,6 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "",
-   "amount": 0
-  },
-  "process": {
-   "name": "",
-   "duration": 0
-  },
-  "ingredients": []
- },
- {
-  "result": {
    "name": "Nanite Clusters",
    "amount": 1
   },
@@ -1077,7 +1066,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -1097,7 +1086,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -1228,7 +1217,7 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "Coprite",
+   "name": "Faecium",
    "amount": 1
   },
   "process": {
@@ -1648,7 +1637,7 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "Coprite",
+   "name": "Faecium",
    "amount": 3
   },
   "process": {
@@ -1668,7 +1657,7 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "Coprite",
+   "name": "Faecium",
    "amount": 4
   },
   "process": {
@@ -2348,7 +2337,7 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "Coprite",
+   "name": "Faecium",
    "amount": 3
   },
   "process": {
@@ -2357,7 +2346,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -2457,7 +2446,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -2517,7 +2506,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -2577,7 +2566,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -2637,7 +2626,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -2737,7 +2726,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -2757,7 +2746,7 @@ export const refiner = [
   },
   "ingredients": [
    {
-    "name": "Coprite",
+    "name": "Faecium",
     "amount": 1
    },
    {
@@ -4028,7 +4017,7 @@ export const refiner = [
  },
  {
   "result": {
-   "name": "Coprite",
+   "name": "Faecium",
    "amount": 1
   },
   "process": {
@@ -4045,17 +4034,6 @@ export const refiner = [
     "amount": 1
    }
   ]
- },
- {
-  "result": {
-   "name": "",
-   "amount": 0
-  },
-  "process": {
-   "name": "",
-   "duration": 0
-  },
-  "ingredients": []
  },
  {
   "result": {

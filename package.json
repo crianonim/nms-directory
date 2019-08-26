@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "process_models":"node src/models/process.js"
+    "process_models": "node src/models/process.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +28,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
