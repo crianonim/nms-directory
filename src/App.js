@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import * as model from "./models/model";
+import ResourceDescription from "./ResourceDescription";
 function App() {
   const { resources, refiner } = model.list();
   const [nameFilter, setNameFilter] = useState("");
@@ -36,33 +37,44 @@ function App() {
         {activeResource ? (
           <>
             <h1>{activeResource}</h1>
-            <h2>Can be Produced in Refiner</h2>
-            <ul>
-              {model
-                .recipesThatProduceInRefiner(activeResource)
-                .map((recipe, i) => (
-                  <li key={recipe.result.name + i}>
-                    {recipe.result.amount} ={" "}
-                    {recipe.ingredients
-                      .map(i => `${i.name} (${i.amount}) `)
-                      .join(" + ")}
-                  </li>
-                ))}
-            </ul>
-            <h2>Is used in Refiner</h2>
-            <ul>
-              {model.recipesThatUseIngredient(activeResource)
-               .map((recipe, i) => (
-                <li key={recipe.result.name + i}>
-                  {recipe.result.name} {" "}
-                  {recipe.result.amount} = {" "}
-                  {recipe.ingredients
-                    .map(i => `${i.name} (${i.amount}) `)
-                    .join(" + ")}
-                </li>
-              ))
-              }
-            </ul>
+            <ResourceDescription
+              resource={resources.find(el => el.Name === activeResource)}
+            />
+
+            {model.recipesThatProduceInRefiner(activeResource).length ? (
+              <>
+                <h2>Can be Produced in Refiner</h2>
+                <ul>
+                  {model
+                    .recipesThatProduceInRefiner(activeResource)
+                    .map((recipe, i) => (
+                      <li key={recipe.result.name + i}>
+                        {recipe.result.amount} ={" "}
+                        {recipe.ingredients
+                          .map(i => `${i.name} (${i.amount}) `)
+                          .join(" + ")}
+                      </li>
+                    ))}
+                </ul>
+              </>
+            ) : null}
+            {model.recipesThatUseIngredient(activeResource).length ? (
+              <>
+                <h2>Is used in Refiner</h2>
+                <ul>
+                  {model
+                    .recipesThatUseIngredient(activeResource)
+                    .map((recipe, i) => (
+                      <li key={recipe.result.name + i}>
+                        {recipe.result.name} {recipe.result.amount} ={" "}
+                        {recipe.ingredients
+                          .map(i => `${i.name} (${i.amount}) `)
+                          .join(" + ")}
+                      </li>
+                    ))}
+                </ul>
+              </>
+            ) : null}
           </>
         ) : null}
       </div>
