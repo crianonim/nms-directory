@@ -4,10 +4,13 @@ import {refiner} from './refiner';
 const craftables=[
     "Glass","Nanite Clusters","Di-hydrogen Jelly","Viscous Fluid"
 ]
+const items=()=> [...resources]
 
 export const list=()=>{
-   return {resources,refiner,craftables}
+   return { items:items() ,refiner,craftables}
 }
+
+
 
 export const recipesThatProduceInRefiner=(name)=>{
     return refiner.filter(recipe=>recipe.result.name===name)

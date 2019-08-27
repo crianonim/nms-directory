@@ -1,19 +1,19 @@
 import React from 'react';
 
-const Recipe = ({recipe,setActiveResource,selectedItem})=>{
+const Recipe = ({recipe,setActiveItem,selectedItem})=>{
     return (
         <div className="recipe">
-             <span className={selectedItem==recipe.name?"selected-item":""} onClick={() => {
-                              setActiveResource(recipe.result.name);
+             <span className={selectedItem===recipe.name?"selected-item":""} onClick={() => {
+                              setActiveItem(recipe.result.name);
                             }}>{recipe.result.name} </span>
                                  ( {recipe.result.amount}) ={" "}
                         {recipe.ingredients.map(i => (
                           <span
                             key={i.name}
                             onClick={() => {
-                              setActiveResource(i.name);
+                              setActiveItem(i.name);
                             }}
-                          ><span className={selectedItem==i.name?"selected-item":""}> {i.name}</span> {i.amount} </span>
+                          ><span className={selectedItem===i.name?"selected-item":""}> {i.name}</span> {i.amount} </span>
                         ))}
         </div>
     )
