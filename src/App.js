@@ -28,42 +28,12 @@ function App() {
        <ItemList setActiveItem={setActiveItem} activeList={activeList} selectedItem={activeItem} />
       </div>
 
-      <div className="resource-info">
+      <div className="item-info">
         {activeItem ? (
           <>
-            <h1>{activeItem}</h1>
-            <ItemDescription
+            <ItemDescription model={model} setActiveItem={setActiveItem}
               item={items.find(el => el.name === activeItem)}
             />
-
-            {model.recipesThatProduceInRefiner(activeItem).length ? (
-              <>
-                <h2>Can be Produced in Refiner</h2>
-                <ul>
-                  {model
-                    .recipesThatProduceInRefiner(activeItem)
-                    .map((recipe, i) => (
-                      <li key={recipe.result.name + i}>
-                        <Recipe setActiveItem={setActiveItem} recipe={recipe}/>
-                      </li>
-                    ))}
-                </ul>
-              </>
-            ) : null}
-            {model.recipesThatUseIngredient(activeItem).length ? (
-              <>
-                <h2>Is used in Refiner</h2>
-                <ul>
-                  {model
-                    .recipesThatUseIngredient(activeItem)
-                    .map((recipe, i) => (
-                      <li key={recipe.result.name + i}>
-                       <Recipe setActiveItem={setActiveItem} recipe={recipe} selectedItem={activeItem}/>
-                      </li>
-                    ))}
-                </ul>
-              </>
-            ) : null}
           </>
         ) : null}
       </div>
