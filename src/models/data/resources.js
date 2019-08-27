@@ -200,6 +200,14 @@ export const resources = [
   "ver": "1.59"
  },
  {
+  "name": "Herox",
+  "abbreviation": "Xx",
+  "category": "Jan",
+  "rarity": "Skow",
+  "price": "666",
+  "ver": "1.0"
+ },
+ {
   "name": "Indium",
   "abbreviation": "In",
   "category": "Stellar",

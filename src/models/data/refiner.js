@@ -2050,7 +2050,7 @@ export const refiner = [
  {
   "result": {
    "name": "Ferrite Dust",
-   "amount": 1
+   "amount": 2
   },
   "process": {
    "name": "1.5",
@@ -2059,7 +2059,7 @@ export const refiner = [
   "ingredients": [
    {
     "name": "Rusted Metal",
-    "amount": 5
+    "amount": 1
    }
   ]
  },
@@ -2256,6 +2256,22 @@ export const refiner = [
    {
     "name": "Silver",
     "amount": 100
+   }
+  ]
+ },
+ {
+  "result": {
+   "name": "Glass",
+   "amount": 1
+  },
+  "process": {
+   "name": "0",
+   "duration": null
+  },
+  "ingredients": [
+   {
+    "name": "Silicate Powder",
+    "amount": 50
    }
   ]
  },
