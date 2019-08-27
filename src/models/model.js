@@ -1,5 +1,5 @@
-import {resources} from './resources';
-import {refiner} from './refiner';
+import {resources} from './data/resources';
+import {refiner} from './data/refiner';
 
 const craftables=[
     "Glass","Nanite Clusters","Di-hydrogen Jelly","Viscous Fluid"
