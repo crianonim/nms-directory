@@ -2,12 +2,12 @@ const fs = require("fs");
 const path = require("path");
 
 const resourcesFields = [
-  "Name",
-  "Abbrev",
-  "Category",
-  "Rarity",
-  "Price",
-  "Ver"
+  "name",
+  "abbreviation",
+  "category",
+  "rarity",
+  "price",
+  "ver"
 ];
 const cont = fs
   .readFileSync(path.join(__dirname, "raw", "resources.txt"), "utf8")

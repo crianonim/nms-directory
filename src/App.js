@@ -20,7 +20,7 @@ function App() {
             setNameFilter(target.value);
             setActiveList(
               resources.filter(resource =>
-                resource.Name.toLowerCase().includes(target.value.toLowerCase())
+                resource.name.toLowerCase().includes(target.value.toLowerCase())
               )
             );
           }}
@@ -33,7 +33,7 @@ function App() {
           <>
             <h1>{activeResource}</h1>
             <ResourceDescription
-              resource={resources.find(el => el.Name === activeResource)}
+              resource={resources.find(el => el.name === activeResource)}
             />
 
             {model.recipesThatProduceInRefiner(activeResource).length ? (

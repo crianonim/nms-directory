@@ -6,10 +6,10 @@ const ItemList = ({activeList,setActiveResource,selectedItem})=>{
              <ul>
           {activeList.map((resource,i) => (
             <li
-              onClick={() => setActiveResource(resource.Name)}
-              key={resource.Name+i}
+              onClick={() => setActiveResource(resource.name)}
+              key={resource.name+i}
             >
-              <span className={selectedItem===resource.Name?"selected-item":selectedItem}>{resource.Name}</span>
+              <span className={selectedItem===resource.name?"selected-item":selectedItem}>{resource.name}</span>
             </li>
           ))}
         </ul>
