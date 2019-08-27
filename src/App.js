@@ -3,6 +3,7 @@ import "./App.css";
 import * as model from "./models/model";
 import ResourceDescription from "./ResourceDescription";
 import Recipe from "./Recipe";
+import ItemList from './ItemList'
 
 function App() {
   const { resources, refiner } = model.list();
@@ -24,16 +25,7 @@ function App() {
             );
           }}
         ></input>
-        <ul>
-          {activeList.map(resource => (
-            <li
-              onClick={() => setActiveResource(resource.Name)}
-              key={resource.Name}
-            >
-              {resource.Name}
-            </li>
-          ))}
-        </ul>
+       <ItemList setActiveResource={setActiveResource} activeList={activeList} selectedItem={activeResource} />
       </div>
 
       <div className="resource-info">
