@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import * as model from "./models/model";
 import ResourceDescription from "./ResourceDescription";
+import Recipe from "./Recipe";
+
 function App() {
   const { resources, refiner } = model.list();
   const [nameFilter, setNameFilter] = useState("");
@@ -50,15 +52,7 @@ function App() {
                     .recipesThatProduceInRefiner(activeResource)
                     .map((recipe, i) => (
                       <li key={recipe.result.name + i}>
-                        {recipe.result.amount} ={" "}
-                        {recipe.ingredients.map(i => (
-                          <span
-                            key={i.name}
-                            onClick={() => {
-                              setActiveResource(i.name);
-                            }}
-                          >{`${i.name} (${i.amount}) `}</span>
-                        ))}
+                        <Recipe setActiveResource={setActiveResource} recipe={recipe}/>
                       </li>
                     ))}
                 </ul>
@@ -72,17 +66,7 @@ function App() {
                     .recipesThatUseIngredient(activeResource)
                     .map((recipe, i) => (
                       <li key={recipe.result.name + i}>
-                        <span onClick={() => {
-                              setActiveResource(recipe.result.name);
-                            }}>{recipe.result.name} {recipe.result.amount}</span> ={" "}
-                        {recipe.ingredients.map(i => (
-                          <span
-                            key={i.name}
-                            onClick={() => {
-                              setActiveResource(i.name);
-                            }}
-                          >{`${i.name} (${i.amount}) `}</span>
-                        ))}
+                       <Recipe setActiveResource={setActiveResource} recipe={recipe}/>
                       </li>
                     ))}
                 </ul>
