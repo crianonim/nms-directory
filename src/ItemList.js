@@ -4,12 +4,12 @@ const ItemList = ({activeList,setActiveItem,selectedItem})=>{
     return (
         <div className="item-list">
              <ul>
-          {activeList.map((resource,i) => (
+          {activeList.map((item,i) => (
             <li
-              onClick={() => setActiveItem(resource.name)}
-              key={resource.name+i}
+              onClick={() => setActiveItem(item.name)}
+              key={item.name+i}
             >
-              <span className={selectedItem===resource.name?"selected-item":selectedItem}>{resource.name}</span>
+              <span className={selectedItem===item.name?"selected-item":selectedItem}>{item.name} <span className="price-color"> [{item.price}]</span> </span>
             </li>
           ))}
         </ul>
