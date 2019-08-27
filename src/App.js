@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import * as model from "./models/model";
-import ResourceDescription from "./ResourceDescription";
+import ItemDescription from "./ItemDescription";
 import Recipe from "./Recipe";
 import ItemList from './ItemList'
 
@@ -32,8 +32,8 @@ function App() {
         {activeItem ? (
           <>
             <h1>{activeItem}</h1>
-            <ResourceDescription
-              resource={items.find(el => el.name === activeItem)}
+            <ItemDescription
+              item={items.find(el => el.name === activeItem)}
             />
 
             {model.recipesThatProduceInRefiner(activeItem).length ? (
