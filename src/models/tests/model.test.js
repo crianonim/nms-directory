@@ -5,7 +5,7 @@ it("works", () => {
 });
 
 // it("all names are on resources list", () => {
-//   const resources = list().resources.map(r => r.Name);
+//   const resources = list().resources.map(r => r.name);
 //   const craftables = list().craftables
 // //   console.log(resources);
 //   const ref = list().refiner;

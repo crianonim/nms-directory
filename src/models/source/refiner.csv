@@ -1,0 +1,312 @@
+Advanced Ion Battery,1,Advanced Ion Capture,90,Pure Ferrite,10,Silver,10,Sodium Nitrate,10
+Ammonia,1,Enviromental Element Transfer,0.9,Paraffinium,2,Ferrite Dust,1,,
+Ammonia,1,Enviromental Element Transfer,0.9,Paraffinium,2,Pure Ferrite,1,,
+Ammonia,1,Floral Titration,0.9,Fungal Mould,2,Salt,1,,
+Ammonia,1,Organic Fusion,0.4,Nitrogen,1,Di-hydrogen,1,,
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Cobalt,60,Gold,10
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Cobalt,60,Platinum,5
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Cobalt,60,Silver,20
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Cobalt,60,Tritium,20
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Ionised Cobalt,30,Gold,10
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Ionised Cobalt,30,Platinum,5
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Ionised Cobalt,30,Silver,20
+Aronium,1,Alloy Latticing,90,Paraffinium,30,Ionised Cobalt,30,Tritium,20
+Cactus Flesh,1,Encourage Growth,0.6,Pyrite,1,Sulphurine,1,,
+Cactus Flesh,1,Encourage Growth,0.9,Pyrite,2,Oxygen,1,,
+Cactus Flesh,2,Organic Expansion,0.9,Pyrite,1,Cactus Flesh,1,,
+Cadmium,4,Chromatic Expansion,0.9,Cadmium,1,Chromatic Metal,1,,
+Carbon Crystal,1,Carbon Crystallisation,120,Carbon,50,Condensed Carbon,50,,
+Carbon Crystal,1,Carbon Crystallisation,200,Carbon,40,Condensed Carbon,40,Tritium,50
+Carbon,1,Inefficient Burn,0.2,Oxygen,1,,,,
+Carbon,2,Burn Plantlife,0.3,Cactus Flesh,1,,,,
+Carbon,2,Burn Plantlife,0.3,Frost Crystal,1,,,,
+Carbon,2,Burn Plantlife,0.3,Fungal Mould,1,,,,
+Carbon,2,Burn Plantlife,0.3,Gamma Root,1,,,,
+Carbon,2,Burn Plantlife,0.3,Solanium,1,,,,
+Carbon,2,Burn Plantlife,0.3,Star Bulb,1,,,,
+Carbon,2,Release Carbon,0.3,Condensed Carbon,1,,,,
+Chloride Lattice,1,Chlorine Latticing,120,Salt,50,Chlorine,50,,
+Chloride Lattice,1,Chlorine Latticing,200,Salt,40,Chlorine,40,Tritium,50
+Chlorine,1,Concentrate Salt,0.9,Salt,2,,,,
+Chlorine,150,Chloride De-latticing,2,Chloride Lattice,1,,,,
+Chlorine,2,Bonded Chlorine Extraction,0.9,Kelp Sac,1,Oxygen,1,,
+Chlorine,2,Dissolve Natural Salts,0.9,Kelp Sac,1,Chlorine,1,,
+Chlorine,2,Dissolve Natural Salts,0.9,Kelp Sac,1,Salt,1,,
+Chlorine,2,Pugneum Washing,0.9,Kelp Sac,1,Pugneum,1,,
+Chlorine,5,Efficient Salt Evaporation,0.9,Salt,2,Oxygen,2,,
+Chlorine,6,Salt Production,0.9,Chlorine,1,Oxygen,2,,
+Chromatic Metal,1,Chromatic Metal Fusion,0.9,Copper,1,Pure Ferrite,1,,
+Chromatic Metal,1,Extract Chromatic Material,0.6,Activated Copper,1,,,,
+Chromatic Metal,1,Extract Chromatic Material,0.7,Cadmium,1,,,,
+Chromatic Metal,1,Extract Chromatic Material,0.9,Copper,2,,,,
+Chromatic Metal,10,Chromatic Stellar Fusion,12,Silver,1,Gold,1,Cadmium,1
+Chromatic Metal,2,Chromatic Metal Fusion,0.9,Cadmium,1,Pure Ferrite,1,,
+Chromatic Metal,2,Extract Chromatic Material,0.5,Activated Cadmium,1,,,,
+Chromatic Metal,2,Stellar / Metal Fusion,0.9,Activated Copper,1,Pure Ferrite,1,,
+Chromatic Metal,20,Chromatic Stellar Fusion,12,Silver,1,Gold,1,Emeril,1
+Chromatic Metal,3,Chromatic Metal Fusion,0.9,Emeril,1,Pure Ferrite,1,,
+Chromatic Metal,3,Extract Chromatic Material,0.4,Activated Emeril,1,,,,
+Chromatic Metal,3,Extract Chromatic Material,0.4,Emeril,2,,,,
+Chromatic Metal,30,Chromatic Stellar Fusion,12,Silver,1,Gold,1,Indium,1
+Chromatic Metal,4,Chromatic Metal Fusion,0.9,Indium,1,Pure Ferrite,1,,
+Chromatic Metal,4,Extract Chromatic Material,0.25,Indium,2,,,,
+Chromatic Metal,4,Extract Chromatic Material,0.3,Activated Indium,1,,,,
+Chromatic Metal,4,Stellar / Metal Fusion,0.9,Activated Cadmium,1,Pure Ferrite,1,,
+Chromatic Metal,5,Chromatic Stellar Fusion,12,Silver,1,Gold,1,Copper,1
+Chromatic Metal,6,Stellar / Metal Fusion,0.9,Activated Emeril,1,Pure Ferrite,1,,
+Chromatic Metal,8,Stellar / Metal Fusion,0.9,Activated Indium,1,Pure Ferrite,1,,
+Cobalt,2,Deionise Mineral,0.3,Ionised Cobalt,1,,,,
+Condensed Carbon,1,Condense Carbon,0.45,Carbon,2,,,,
+Condensed Carbon,150,Carbon Melting,2,Carbon Crystal,1,,,,
+Condensed Carbon,2,Feed Microbes,0.9,Faecium,1,Carbon,2,,
+Condensed Carbon,2,Feed Microbes,0.9,Faecium,1,Mordite,1,,
+Condensed Carbon,2,Harness Energy,0.1,Uranium,1,Di-hydrogen,1,,
+Condensed Carbon,3,Feed Microbes,0.9,Faecium,1,Condensed Carbon,1,,
+Condensed Carbon,5,Oxygenate Carbon,0.9,Carbon,2,Oxygen,2,,
+Condensed Carbon,6,Oxygenate Carbon,0.9,Condensed Carbon,1,Oxygen,2,,
+Copper,4,Chromatic Expansion,0.9,Copper,1,Chromatic Metal,1,,
+Destablised Sodium,1,Sodium Destabilisation,120,Sodium,50,Sodium Nitrate,50,,
+Destablised Sodium,1,Sodium Destabilisation,200,Sodium,40,Sodium Nitrate,40,Tritium,50
+Deuterium,1,Di-hydrogen Cycling,0.6,Di-hydrogen,1,Tritium,1,,
+Di-hydrogen Jelly,1,Condense Di-hydrogen,120,Di-hydrogen,30,,,,
+Di-hydrogen,1,Tritium Cycling,0.9,Tritium,5,,,,
+Di-hydrogen,50,Di-hydrogen Cycling,1,Di-hydrogen Jelly,1,,,,
+Dioxite,1,Advanced Carbon Processing,0.9,Carbon,1,Sodium Nitrate,1,,
+Dioxite,1,Enviromental Element Transfer,0.9,Ammonia,2,Ferrite Dust,1,,
+Dioxite,1,Enviromental Element Transfer,0.9,Ammonia,2,Pure Ferrite,1,,
+Dioxite,1,Floral Titration,0.9,Frost Crystal,2,Salt,1,,
+Dioxite,2,Advanced Carbon Processing,0.9,Condensed Carbon,1,Sodium Nitrate,1,,
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Ferrite Dust,120,Gold,10
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Ferrite Dust,120,Platinum,5
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Ferrite Dust,120,Silver,20
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Ferrite Dust,120,Tritium,20
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Pure Ferrite,60,Gold,10
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Pure Ferrite,60,Platinum,5
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Pure Ferrite,60,Silver,20
+Dirty Bronze,1,Alloy Latticing,90,Pyrite,30,Pure Ferrite,60,Tritium,20
+Emeril,4,Chromatic Expansion,0.9,Emeril,1,Chromatic Metal,1,,
+Enriched Carbon,1,High-Speed Sublimation,90,Radon,100,Carbon,20,Chlorine,5
+Enriched Carbon,1,High-Speed Sublimation,90,Radon,100,Carbon,20,Salt,10
+Enriched Carbon,1,High-Speed Sublimation,90,Radon,100,Condensed Carbon,10,Chlorine,5
+Enriched Carbon,1,High-Speed Sublimation,90,Radon,100,Condensed Carbon,10,Salt,10
+Faecium,1,Assisted Decomposition,0.2,Di-hydrogen,1,Carbon,1,,
+Faecium,1,Assisted Decomposition,0.6,Mordite,3,,,,
+Faecium,1,Encourage Growth,0.6,Sulphurine,1,Nitrogen,1,,
+Faecium,3,Oxygenate Microbes,0.9,Faecium,1,Oxygen,1,,
+Faecium,3,Runaway Decomposition,0.9,Carbon,2,Mordite,1,,
+Faecium,4,Runaway Decomposition,0.9,Condensed Carbon,1,Mordite,1,,
+Ferrite Dust,1,Ferrite Dust extraction,0.9,Ammonia,1,,,,
+Ferrite Dust,1,Ferrite Dust extraction,0.9,Dioxite,1,,,,
+Ferrite Dust,1,Ferrite Dust extraction,0.9,Paraffinium,1,,,,
+Ferrite Dust,1,Ferrite Dust extraction,0.9,Phosphorus,1,,,,
+Ferrite Dust,1,Ferrite Dust extraction,0.9,Pyrite,1,,,,
+Ferrite Dust,1,Ferrite Dust extraction,0.9,Uranium,1,,,,
+Ferrite Dust,2,Recyle Waste Materials,1.5,Rusted Metal,1,,,,
+Frost Crystal,1,Encourage Growth,0.6,Dioxite,1,Radon,1,,
+Frost Crystal,1,Encourage Growth,0.9,Dioxite,2,Oxygen,1,,
+Frost Crystal,2,Organic Expansion,0.9,Dioxite,1,Frost Crystal,1,,
+Fungal Mould,1,Encourage Growth,0.6,Ammonia,1,Nitrogen,1,,
+Fungal Mould,1,Encourage Growth,0.9,Ammonia,2,Oxygen,1,,
+Fungal Mould,2,Organic Expansion,0.9,Ammonia,1,Fungal Mould,1,,
+Gamma Root,1,Encourage Growth,0.6,Uranium,1,Radon,1,,
+Gamma Root,1,Encourage Growth,0.9,Uranium,2,Oxygen,1,,
+Gamma Root,2,Organic Expansion,0.9,Uranium,1,Gamma Root,1,,
+Glass,1,Extreme Polishing,60,Silver,100,,,,
+Glass,1,Testing,0,Silicate Powder,50,,,,,
+Gold,1,Alchemical Construction,0.6,Faecium,1,Residual Goop,1,,
+Gold,1,Alchemical Construction,0.6,Hexite,1,,,,
+Gold,1,Organic / Anomaly Synthesis,0.9,Mordite,1,Pugneum,1,,
+Gold,10,Chromatic Alchemy,12,Ferrite Dust,1,Oxygen,1,Emeril,1
+Gold,125,Extreme Alloy Separation,3,Grantine,1,,,,
+Gold,125,Extreme Alloy Separation,3,Lemmium,1,,,,
+Gold,125,Extreme Alloy Separation,3,Magno-Gold,1,,,,
+Gold,2,Pugneum Alchemy,0.9,Faecium,1,Pugneum,1,,
+Grantine,1,Alloy Latticing,90,Dioxite,30,Cobalt,60,Gold,10
+Grantine,1,Alloy Latticing,90,Dioxite,30,Cobalt,60,Platinum,5
+Grantine,1,Alloy Latticing,90,Dioxite,30,Cobalt,60,Silver,20
+Grantine,1,Alloy Latticing,90,Dioxite,30,Cobalt,60,Tritium,20
+Grantine,1,Alloy Latticing,90,Dioxite,30,Ionised Cobalt,30,Gold,10
+Grantine,1,Alloy Latticing,90,Dioxite,30,Ionised Cobalt,30,Platinum,5
+Grantine,1,Alloy Latticing,90,Dioxite,30,Ionised Cobalt,30,Silver,20
+Grantine,1,Alloy Latticing,90,Dioxite,30,Ionised Cobalt,30,Tritium,20
+Herox,1,Alloy Latticing,90,Ammonia,30,Cobalt,60,Gold,10
+Herox,1,Alloy Latticing,90,Ammonia,30,Cobalt,60,Platinum,5
+Herox,1,Alloy Latticing,90,Ammonia,30,Cobalt,60,Silver,20
+Herox,1,Alloy Latticing,90,Ammonia,30,Cobalt,60,Tritium,20
+Herox,1,Alloy Latticing,90,Ammonia,30,Ionised Cobalt,30,Gold,10
+Herox,1,Alloy Latticing,90,Ammonia,30,Ionised Cobalt,30,Platinum,5
+Herox,1,Alloy Latticing,90,Ammonia,30,Ionised Cobalt,30,Silver,20
+Herox,1,Alloy Latticing,90,Ammonia,30,Ionised Cobalt,30,Tritium,20
+Indium,4,Chromatic Expansion,0.9,Indium,1,Chromatic Metal,1,,
+Ion Battery,1,Ion Capture,90,Ferrite Dust,10,Silver,10,Sodium,10
+Ionised Cobalt,1,Ionise Mineral,0.9,Cobalt,2,,,,
+Ionised Cobalt,150,Cobalt Cracking,2,TetraCobalt,1,,,,
+Ionised Cobalt,2,Bonded Cobalt Extraction,0.9,Marrow Bulb,1,Oxygen,1,,
+Ionised Cobalt,2,Ionise Bulbs,0.9,Marrow Bulb,1,Cobalt,1,,
+Ionised Cobalt,2,Ionise Bulbs,0.9,Marrow Bulb,1,Ionised Cobalt,1,,
+Ionised Cobalt,2,Pugneum Washing,0.9,Marrow Bulb,1,Pugneum,1,,
+Ionised Cobalt,5,Efficient Cobalt Ionisation,0.9,Cobalt,2,Oxygen,2,,
+Ionised Cobalt,6,Efficient Cobalt Ionisation,0.9,Ionised Cobalt,1,Oxygen,2,,
+Kelp Sac,1,Encourage Growth,0.6,Salt,1,Nitrogen,1,,
+Lemmium,1,Alloy Latticing,90,Uranium,30,Ferrite Dust,120,Gold,10
+Lemmium,1,Alloy Latticing,90,Uranium,30,Ferrite Dust,120,Platinum,5
+Lemmium,1,Alloy Latticing,90,Uranium,30,Ferrite Dust,120,Silver,20
+Lemmium,1,Alloy Latticing,90,Uranium,30,Ferrite Dust,120,Tritium,20
+Lemmium,1,Alloy Latticing,90,Uranium,30,Pure Ferrite,60,Gold,10
+Lemmium,1,Alloy Latticing,90,Uranium,30,Pure Ferrite,60,Platinum,5
+Lemmium,1,Alloy Latticing,90,Uranium,30,Pure Ferrite,60,Silver,20
+Lemmium,1,Alloy Latticing,90,Uranium,30,Pure Ferrite,60,Tritium,20
+Life Support Gel,1,Advanced Oxygen Capture,90,Oxygen,10,Condensed Carbon,10,Di-hydrogen,10
+Living Slime,1,Recyle Waste Materials,1.5,Viscous Fluid,1,,,,
+Magnetised Ferrite,1,Carbonise Metal,0.6,Ferrite Dust,1,Carbon,1,,
+Magnetised Ferrite,1,Magnetise Metal,0.6,Pure Ferrite,2,,,,
+Magnetised Ferrite,1,Stellar / Metal Fusion,0.9,Copper,1,Ferrite Dust,1,,
+Magnetised Ferrite,10,Mineral Alchemy,0.9,Platinum,1,Oxygen,1,,
+Magnetised Ferrite,12,Deep Metal Compression,1.2,Ferrite Dust,1,Pure Ferrite,1,Platinum,1
+Magnetised Ferrite,2,Carbonise Metal,0.6,Ferrite Dust,1,Condensed Carbon,1,,
+Magnetised Ferrite,2,Carbonise Metal,0.6,Pure Ferrite,1,Carbon,1,,
+Magnetised Ferrite,2,Stellar / Metal Fusion,0.9,Activated Copper,1,Ferrite Dust,1,,
+Magnetised Ferrite,2,Stellar / Metal Fusion,0.9,Cadmium,1,Ferrite Dust,1,,
+Magnetised Ferrite,3,Carbonise Metal,0.6,Pure Ferrite,1,Condensed Carbon,1,,
+Magnetised Ferrite,3,Matter Expansion,0.9,Pure Ferrite,2,Pugneum,1,,
+Magnetised Ferrite,3,Stellar / Metal Fusion,0.9,Emeril,1,Ferrite Dust,1,,
+Magnetised Ferrite,4,Matter Expansion,0.9,Magnetised Ferrite,3,Pugneum,1,,
+Magnetised Ferrite,4,Stellar / Metal Fusion,0.9,Activated Cadmium,1,Ferrite Dust,1,,
+Magnetised Ferrite,4,Stellar / Metal Fusion,0.9,Indium,1,Ferrite Dust,1,,
+Magnetised Ferrite,5,Deep Metal Compression,1.2,Ferrite Dust,1,Pure Ferrite,1,Silver,1
+Magnetised Ferrite,6,Stellar / Metal Fusion,0.9,Activated Emeril,1,Ferrite Dust,1,,
+Magnetised Ferrite,8,Deep Metal Compression,1.2,Ferrite Dust,1,Pure Ferrite,1,Gold,1
+Magnetised Ferrite,8,Stellar / Metal Fusion,0.9,Activated Indium,1,Ferrite Dust,1,,
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Cobalt,60,Gold,10
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Cobalt,60,Platinum,5
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Cobalt,60,Silver,20
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Cobalt,60,Tritium,20
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Ionised Cobalt,30,Gold,10
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Ionised Cobalt,30,Platinum,5
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Ionised Cobalt,30,Silver,20
+Magno-Gold,1,Alloy Latticing,90,Phosphorus,30,Ionised Cobalt,30,Tritium,20
+Marrow Bulb,1,Encourage Growth,0.6,Cobalt,1,Nitrogen,1,,
+Marrow Bulb,3,Fertilizer Synthesis ,0.9,Sodium,2,Mordite,1,,
+Marrow Bulb,4,Fertilizer Synthesis ,0.9,Sodium Nitrate,1,Mordite,1,,
+Mordite,1,Anomaly / Organic Hybridisation,0.9,Carbon,1,Pugneum,1,,
+Mordite,1,Organic Reassembly,0.2,Di-hydrogen,1,Condensed Carbon,1,,
+Mordite,2,Anomaly / Organic Hybridisation,0.9,Condensed Carbon,1,Pugneum,1,,
+Mordite,2,Organic Reassembly,1.8,Faecium,3,,,,
+Nanite Clusters,1,Alchemical Construction,0.6,Faecium,1,Hexite,1,,
+Nanite Clusters,1,Reality Filtering,0.3,Pugneum,10,,,,
+Nanite Clusters,1,Reality Warping,0.6,Platinum,5,,,,
+Nanite Clusters,1,Recyle Waste Materials,1.5,Runaway Mould,5,,,,
+Nanite Clusters,1,Transmutation,0.9,Silver,250,Gold,250,Platinum,250
+Nitrogen Salt,1,High-Speed Sublimation,90,Nitrogen,100,Carbon,20,Chlorine,5
+Nitrogen Salt,1,High-Speed Sublimation,90,Nitrogen,100,Carbon,20,Salt,10
+Nitrogen Salt,1,High-Speed Sublimation,90,Nitrogen,100,Condensed Carbon,10,Chlorine,5
+Nitrogen Salt,1,High-Speed Sublimation,90,Nitrogen,100,Condensed Carbon,10,Salt,10
+Nitrogen,1,Gas Catalysation,0.9,Radon,1,Chromatic Metal,1,,
+Nitrogen,1,Gas Transfer,0.9,Radon,1,Oxygen,1,,
+Nitrogen,1,Gas Transfer,0.9,Radon,3,,,,
+Oxygen,1,Extract Micro-bubbles,0.6,Kelp Sac,1,,,,
+Oxygen,10,Artificial Photosynthesis,9,Cactus Flesh,1,Kelp Sac,1,Condensed Carbon,1
+Oxygen,10,Artificial Photosynthesis,9,Frost Crystal,1,Kelp Sac,1,Condensed Carbon,1
+Oxygen,10,Artificial Photosynthesis,9,Fungal Mould,1,Kelp Sac,1,Condensed Carbon,1
+Oxygen,10,Artificial Photosynthesis,9,Gamma Root,1,Kelp Sac,1,Condensed Carbon,1
+Oxygen,10,Artificial Photosynthesis,9,Solanium,1,Kelp Sac,1,Condensed Carbon,1
+Oxygen,10,Artificial Photosynthesis,9,Star Bulb,1,Kelp Sac,1,Condensed Carbon,1
+Oxygen,150,Oxygen Decompression,2,Superoxide Crystal,1,,,,
+Oxygen,2,Release Captured Oxygen,0.9,Kelp Sac,1,Carbon,1,,
+Oxygen,2,Release Captured Oxygen,0.9,Kelp Sac,1,Condensed Carbon,1,,
+Paraffinium,1,Enviromental Element Transfer,0.9,Pyrite,2,Ferrite Dust,1,,
+Paraffinium,1,Enviromental Element Transfer,0.9,Pyrite,2,Pure Ferrite,1,,
+Paraffinium,1,Floral Titration,0.9,Star Bulb,2,Salt,1,,
+Paraffinium,1,Loosen Bonds,0.9,Sulphurine,1,Ferrite Dust,1,,
+Paraffinium,2,Loosen Bonds,0.9,Sulphurine,1,Pure Ferrite,1,,
+Paraffinium,2,Mineral Alchemy,0.9,Silver,1,Oxygen,1,,
+Paraffinium,3,Loosen Bonds,0.9,Sulphurine,1,Magnetised Ferrite,1,,
+Phosphorus,1,Enviromental Element Transfer,0.9,Dioxite,2,Ferrite Dust,1,,
+Phosphorus,1,Enviromental Element Transfer,0.9,Dioxite,2,Pure Ferrite,1,,
+Phosphorus,1,Floral Titration,0.9,Solanium,2,Salt,1,,
+Platinum,1,Transmutation,0.6,Silver,1,Gold,1,,
+Platinum,10,Chromatic Alchemy,12,Ferrite Dust,1,Oxygen,1,Chromatic Metal,250
+Platinum,250,Extreme Alloy Separation,3,Geodesite,1,,,,
+Platinum,250,Extreme Alloy Separation,3,Iridesite,1,,,,
+Pure Ferrite,1,Extract Metallic Elements,0.3,Ferrite Dust,1,,,,
+Pure Ferrite,150,Rare Metal Detoxification,2,Rare Metal Element,1,,,,
+Pure Ferrite,2,Demagnetise Metal,0.4,Magnetised Ferrite,1,,,,
+Pure Ferrite,3,Matter Expansion,0.9,Ferrite Dust,2,Pugneum,1,,
+Pyrite,1,Enviromental Element Transfer,0.9,Uranium,2,Ferrite Dust,1,,
+Pyrite,1,Enviromental Element Transfer,0.9,Uranium,2,Pure Ferrite,1,,
+Pyrite,1,Floral Titration,0.9,Cactus Flesh,2,Salt,1,,
+Pyrite,1,Metal Restructuring,0.6,Gold,1,,,,
+Pyrite,2,Mineral Alchemy,0.9,Gold,1,Oxygen,1,,
+Radon,1,Gas Catalysation,0.9,Sulphurine,1,Chromatic Metal,1,,
+Radon,1,Gas Transfer,0.9,Sulphurine,1,Oxygen,1,,
+Radon,1,Gas Transfer,0.9,Sulphurine,3,,,,
+Rare Metal Element,1,Rare Metal Detoxification,120,Magnetised Ferrite,25,Oxygen,50,,
+Rare Metal Element,1,Rare Metal Fusion,120,Ferrite Dust,35,Pure Ferrite,35,Magnetised Ferrite,35
+Rare Metal Element,1,Rare Metal Fusion,200,Oxygen,20,Magnetised Ferrite,20,Tritium,25
+Runaway Mould,1,Recyle Waste Materials,1.5,Living Slime,1,,,,
+Rusted Metal,1,Oxidise Metal,1,Ferrite Dust,1,Oxygen,1,,
+Rusted Metal,2,Oxidise Metal,1,Pure Ferrite,1,Oxygen,1,,
+Salt,1,Rapid Formation / Evaporation,0.2,Di-hydrogen,1,Oxygen,1,,
+Salt,2,Salt Production,0.6,Chlorine,1,,,,
+Silver,250,Extreme Alloy Separation,2.5,Herox,1,,,,
+Silver,250,Extreme Alloy Separation,3,Aronium,1,,,,
+Silver,250,Extreme Alloy Separation,3,Dirty Bronze,1,,,,
+Sodium Nitrate,1,Catalyse Carbon,0.9,Carbon,1,Sodium,1,,
+Sodium Nitrate,1,Gas Catalysation,0.9,Nitrogen,1,Sodium,1,,
+Sodium Nitrate,1,Gas Catalysation,1.2,Nitrogen,1,Ferrite Dust,1,,
+Sodium Nitrate,1,Oxygenate Sodium,0.9,Sodium,1,Oxygen,1,,
+Sodium Nitrate,1,Process Sodium,1,Sodium,2,,,,
+Sodium Nitrate,1,Sentinel Catalysation,0.9,Sodium,1,Pugneum,1,,
+Sodium Nitrate,150,Sodium Stabilisation,2,Destablised Sodium,1,,,,
+Sodium Nitrate,2,Catalyse Carbon,0.9,Condensed Carbon,1,Sodium,1,,
+Sodium Nitrate,2,Extract Organic Sodium,0.9,Marrow Bulb,1,Condensed Carbon,1,,
+Sodium Nitrate,2,Feed Microbes,0.9,Faecium,1,Sodium Nitrate,1,,
+Sodium Nitrate,2,Feed Microbes,0.9,Faecium,1,Sodium,1,,
+Sodium Nitrate,2,Gas Catalysation,0.9,Nitrogen,1,Sodium Nitrate,1,,
+Sodium Nitrate,2,Gas Catalysation,1.2,Nitrogen,1,Pure Ferrite,1,,
+Sodium Nitrate,2,Harness Organic Nitrogren,0.9,Kelp Sac,1,Sodium Nitrate,1,,
+Sodium Nitrate,2,Harness Organic Nitrogren,0.9,Kelp Sac,1,Sodium,1,,
+Sodium Nitrate,2,Harness Organic Nitrogren,0.9,Marrow Bulb,1,Sodium Nitrate,1,,
+Sodium Nitrate,2,Harness Organic Nitrogren,0.9,Marrow Bulb,1,Sodium,1,,
+Sodium Nitrate,2,Oxygenate Sodium,0.9,Sodium Nitrate,1,Oxygen,1,,
+Sodium Nitrate,3,Gas Catalysation,1.2,Nitrogen,1,Magnetised Ferrite,1,,
+Sodium Nitrate,3,Sentinel Catalysation,0.9,Sodium Nitrate,1,Pugneum,1,,
+Sodium,1,Extract Organic Sodium,0.6,Marrow Bulb,1,,,,
+Sodium,2,Extract Organic Sodium,0.9,Marrow Bulb,1,Carbon,1,,
+Sodium,2,Free Sodium,0.6,Sodium Nitrate,1,,,,
+Solanium,1,Encourage Growth,0.6,Phosphorus,1,Sulphurine,1,,
+Solanium,1,Encourage Growth,0.9,Phosphorus,2,Oxygen,1,,
+Solanium,1,Sulphur Injection,0.4,Sulphurine,1,Di-hydrogen,1,,
+Solanium,2,Organic Expansion,0.9,Phosphorus,1,Solanium,1,,
+Star Bulb,1,Encourage Growth,0.6,Paraffinium,1,Nitrogen,1,,
+Star Bulb,1,Encourage Growth,0.9,Paraffinium,2,Oxygen,1,,
+Star Bulb,2,Organic Expansion,0.9,Paraffinium,1,Star Bulb,1,,
+Starship Launch Fuel,1,Di-hydrogen Capture,90,Di-hydrogen,10,Ferrite Dust,20,Sodium Nitrate,5
+Starship Launch Fuel,1,Di-hydrogen Capture,90,Di-hydrogen,10,Magnetised Ferrite,10,Sodium Nitrate,5
+Starship Launch Fuel,1,Di-hydrogen Capture,90,Di-hydrogen,10,Pure Ferrite,20,Sodium,10
+Sulphurine,1,Gas Catalysation,0.9,Nitrogen,1,Chromatic Metal,1,,
+Sulphurine,1,Gas Transfer,0.9,Nitrogen,1,Oxygen,1,,
+Sulphurine,1,Gas Transfer,0.9,Nitrogen,3,,,,
+Superoxide Crystal,1,Oxygen Nucleation,120,Oxygen,100,Tritium,50,,
+Superoxide Crystal,1,Oxygen Nucleation,200,Oxygen,40,Uranium,40,Tritium,50
+TetraCobalt,1,Cobalt Supercharging,120,Cobalt,50,Ionised Cobalt,50,,
+TetraCobalt,1,Cobalt Supercharging,200,Cobalt,40,Ionised Cobalt,40,Tritium,50
+Thermic Condensate,1,High-Speed Sublimation,90,Sulphurine,100,Carbon,20,Chlorine,5
+Thermic Condensate,1,High-Speed Sublimation,90,Sulphurine,100,Carbon,20,Salt,10
+Thermic Condensate,1,High-Speed Sublimation,90,Sulphurine,100,Condensed Carbon,10,Chlorine,5
+Thermic Condensate,1,High-Speed Sublimation,90,Sulphurine,100,Condensed Carbon,10,Salt,10
+Unstable Plasma,1,Plasma Pressurisation,90,Oxygen,10,Ferrite Dust,20,Carbon,20
+Unstable Plasma,1,Plasma Pressurisation,90,Oxygen,10,Ferrite Dust,20,Condensed Carbon,10
+Unstable Plasma,1,Plasma Pressurisation,90,Oxygen,10,Pure Ferrite,20,Carbon,20
+Unstable Plasma,1,Plasma Pressurisation,90,Oxygen,10,Pure Ferrite,20,Condensed Carbon,10
+Uranium,1,Catalyse Radiation,0.4,Radon,1,Di-hydrogen,1,,
+Uranium,1,Enviromental Element Transfer,0.9,Phosphorus,2,Ferrite Dust,1,,
+Uranium,1,Enviromental Element Transfer,0.9,Phosphorus,2,Pure Ferrite,1,,
+Uranium,1,Floral Titration,0.9,Gamma Root,2,Salt,1,,
+Uranium,1,Metal Enrichment,0.9,Radon,1,Ferrite Dust,1,,
+Uranium,2,Metal Enrichment,0.9,Radon,1,Pure Ferrite,1,,
+Uranium,3,Metal Enrichment,0.9,Radon,1,Magnetised Ferrite,1,,
+Viscous Fluid,1,Recyle Waste Materials,1.5,Residual Goop,1,,,,
+Warp Cell,1,Antimatter Bypass,600,Carbon,50,Sodium Nitrate,5,Chromatic Metal,250
+Warp Cell,1,Antimatter Bypass,600,Condensed Carbon,25,Sodium Nitrate,5,Chromatic Metal,250
+Warp Cell,1,Antimatter Bypass,600,Condensed Carbon,25,Sodium,10,Chromatic Metal,250

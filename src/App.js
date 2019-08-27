@@ -1,93 +1,28 @@
 import React, { useState } from "react";
 import "./App.css";
 import * as model from "./models/model";
-import ResourceDescription from "./ResourceDescription";
+import ItemDescription from "./ItemDescription";
+import ItemList from './ItemList'
+import ListFilter from "./ListFilter";
+
 function App() {
-  const { resources, refiner } = model.list();
-  const [nameFilter, setNameFilter] = useState("");
-  const [activeList, setActiveList] = useState(resources);
-  const [activeResource, setActiveResource] = useState(null);
+  const { items } = model.list();
+  
+  const [activeList, setActiveList] = useState(items);
+  const [activeItem, setActiveItem] = useState(null);
 
   return (
     <div className="App">
-      <div className="resources-list">
-        <input
-          value={nameFilter}
-          onChange={({ target }) => {
-            setNameFilter(target.value);
-            setActiveList(
-              resources.filter(resource =>
-                resource.Name.toLowerCase().includes(target.value.toLowerCase())
-              )
-            );
-          }}
-        ></input>
-        <ul>
-          {activeList.map(resource => (
-            <li
-              onClick={() => setActiveResource(resource.Name)}
-              key={resource.Name}
-            >
-              {resource.Name}
-            </li>
-          ))}
-        </ul>
+      <div className="list-panel">
+       <ListFilter setActiveList={setActiveList} items={items} />
+       <ItemList setActiveItem={setActiveItem} activeList={activeList} selectedItem={activeItem} />
       </div>
-
-      <div className="resource-info">
-        {activeResource ? (
+      <div className="item-info">
+        {activeItem ? (
           <>
-            <h1>{activeResource}</h1>
-            <ResourceDescription
-              resource={resources.find(el => el.Name === activeResource)}
+            <ItemDescription model={model} setActiveItem={setActiveItem}
+              item={items.find(el => el.name === activeItem)}
             />
-
-            {model.recipesThatProduceInRefiner(activeResource).length ? (
-              <>
-                <h2>Can be Produced in Refiner</h2>
-                <ul>
-                  {model
-                    .recipesThatProduceInRefiner(activeResource)
-                    .map((recipe, i) => (
-                      <li key={recipe.result.name + i}>
-                        {recipe.result.amount} ={" "}
-                        {recipe.ingredients.map(i => (
-                          <span
-                            key={i.name}
-                            onClick={() => {
-                              setActiveResource(i.name);
-                            }}
-                          >{`${i.name} (${i.amount}) `}</span>
-                        ))}
-                      </li>
-                    ))}
-                </ul>
-              </>
-            ) : null}
-            {model.recipesThatUseIngredient(activeResource).length ? (
-              <>
-                <h2>Is used in Refiner</h2>
-                <ul>
-                  {model
-                    .recipesThatUseIngredient(activeResource)
-                    .map((recipe, i) => (
-                      <li key={recipe.result.name + i}>
-                        <span onClick={() => {
-                              setActiveResource(recipe.result.name);
-                            }}>{recipe.result.name} {recipe.result.amount}</span> ={" "}
-                        {recipe.ingredients.map(i => (
-                          <span
-                            key={i.name}
-                            onClick={() => {
-                              setActiveResource(i.name);
-                            }}
-                          >{`${i.name} (${i.amount}) `}</span>
-                        ))}
-                      </li>
-                    ))}
-                </ul>
-              </>
-            ) : null}
           </>
         ) : null}
       </div>

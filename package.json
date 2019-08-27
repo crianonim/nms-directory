@@ -1,5 +1,5 @@
 {
-  "name": "star-trader",
+  "name": "nms-directory",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://crianonim.github.io/nms-directory/",
@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "process_models": "node src/models/process.js",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "process_models": "node src/models/processSources.js"
   },
   "eslintConfig": {
     "extends": "react-app"
