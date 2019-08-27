@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Recipe = ({recipe,setActiveResource})=>{
+const Recipe = ({recipe,setActiveResource,selectedItem})=>{
     return (
         <div className="recipe">
-             <span onClick={() => {
+             <span className={selectedItem==recipe.name?"selected-item":""} onClick={() => {
                               setActiveResource(recipe.result.name);
                             }}>{recipe.result.name} </span>
                                  ( {recipe.result.amount}) ={" "}
@@ -13,7 +13,7 @@ const Recipe = ({recipe,setActiveResource})=>{
                             onClick={() => {
                               setActiveResource(i.name);
                             }}
-                          >{`${i.name} (${i.amount}) `}</span>
+                          ><span className={selectedItem==i.name?"selected-item":""}> {i.name}</span> {i.amount} </span>
                         ))}
         </div>
     )

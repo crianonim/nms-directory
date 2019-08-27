@@ -66,7 +66,7 @@ function App() {
                     .recipesThatUseIngredient(activeResource)
                     .map((recipe, i) => (
                       <li key={recipe.result.name + i}>
-                       <Recipe setActiveResource={setActiveResource} recipe={recipe}/>
+                       <Recipe setActiveResource={setActiveResource} recipe={recipe} selectedItem={activeResource}/>
                       </li>
                     ))}
                 </ul>
