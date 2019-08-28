@@ -1,5 +1,6 @@
 export const refiner = [
  {
+  "id": "Advanced Ion Battery0",
   "result": {
    "name": "Advanced Ion Battery",
    "amount": 1
@@ -24,6 +25,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ammonia1",
   "result": {
    "name": "Ammonia",
    "amount": 1
@@ -44,6 +46,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ammonia2",
   "result": {
    "name": "Ammonia",
    "amount": 1
@@ -64,6 +67,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ammonia3",
   "result": {
    "name": "Ammonia",
    "amount": 1
@@ -84,6 +88,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ammonia4",
   "result": {
    "name": "Ammonia",
    "amount": 1
@@ -104,6 +109,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium5",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -128,6 +134,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium6",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -152,6 +159,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium7",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -176,6 +184,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium8",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -200,6 +209,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium9",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -224,6 +234,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium10",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -248,6 +259,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium11",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -272,6 +284,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Aronium12",
   "result": {
    "name": "Aronium",
    "amount": 1
@@ -296,6 +309,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Cactus Flesh13",
   "result": {
    "name": "Cactus Flesh",
    "amount": 1
@@ -316,6 +330,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Cactus Flesh14",
   "result": {
    "name": "Cactus Flesh",
    "amount": 1
@@ -336,6 +351,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Cactus Flesh15",
   "result": {
    "name": "Cactus Flesh",
    "amount": 2
@@ -356,6 +372,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Cadmium16",
   "result": {
    "name": "Cadmium",
    "amount": 4
@@ -376,6 +393,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon Crystal17",
   "result": {
    "name": "Carbon Crystal",
    "amount": 1
@@ -396,6 +414,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon Crystal18",
   "result": {
    "name": "Carbon Crystal",
    "amount": 1
@@ -420,6 +439,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon19",
   "result": {
    "name": "Carbon",
    "amount": 1
@@ -436,6 +456,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon20",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -452,6 +473,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon21",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -468,6 +490,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon22",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -484,6 +507,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon23",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -500,6 +524,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon24",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -516,6 +541,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon25",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -532,6 +558,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Carbon26",
   "result": {
    "name": "Carbon",
    "amount": 2
@@ -548,6 +575,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chloride Lattice27",
   "result": {
    "name": "Chloride Lattice",
    "amount": 1
@@ -568,6 +596,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chloride Lattice28",
   "result": {
    "name": "Chloride Lattice",
    "amount": 1
@@ -592,6 +621,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine29",
   "result": {
    "name": "Chlorine",
    "amount": 1
@@ -608,6 +638,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine30",
   "result": {
    "name": "Chlorine",
    "amount": 150
@@ -624,6 +655,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine31",
   "result": {
    "name": "Chlorine",
    "amount": 2
@@ -644,6 +676,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine32",
   "result": {
    "name": "Chlorine",
    "amount": 2
@@ -664,6 +697,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine33",
   "result": {
    "name": "Chlorine",
    "amount": 2
@@ -684,6 +718,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine34",
   "result": {
    "name": "Chlorine",
    "amount": 2
@@ -704,6 +739,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine35",
   "result": {
    "name": "Chlorine",
    "amount": 5
@@ -724,6 +760,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chlorine36",
   "result": {
    "name": "Chlorine",
    "amount": 6
@@ -744,6 +781,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal37",
   "result": {
    "name": "Chromatic Metal",
    "amount": 1
@@ -764,6 +802,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal38",
   "result": {
    "name": "Chromatic Metal",
    "amount": 1
@@ -780,6 +819,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal39",
   "result": {
    "name": "Chromatic Metal",
    "amount": 1
@@ -796,6 +836,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal40",
   "result": {
    "name": "Chromatic Metal",
    "amount": 1
@@ -812,6 +853,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal41",
   "result": {
    "name": "Chromatic Metal",
    "amount": 10
@@ -836,6 +878,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal42",
   "result": {
    "name": "Chromatic Metal",
    "amount": 2
@@ -856,6 +899,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal43",
   "result": {
    "name": "Chromatic Metal",
    "amount": 2
@@ -872,6 +916,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal44",
   "result": {
    "name": "Chromatic Metal",
    "amount": 2
@@ -892,6 +937,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal45",
   "result": {
    "name": "Chromatic Metal",
    "amount": 20
@@ -916,6 +962,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal46",
   "result": {
    "name": "Chromatic Metal",
    "amount": 3
@@ -936,6 +983,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal47",
   "result": {
    "name": "Chromatic Metal",
    "amount": 3
@@ -952,6 +1000,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal48",
   "result": {
    "name": "Chromatic Metal",
    "amount": 3
@@ -968,6 +1017,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal49",
   "result": {
    "name": "Chromatic Metal",
    "amount": 30
@@ -992,6 +1042,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal50",
   "result": {
    "name": "Chromatic Metal",
    "amount": 4
@@ -1012,6 +1063,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal51",
   "result": {
    "name": "Chromatic Metal",
    "amount": 4
@@ -1028,6 +1080,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal52",
   "result": {
    "name": "Chromatic Metal",
    "amount": 4
@@ -1044,6 +1097,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal53",
   "result": {
    "name": "Chromatic Metal",
    "amount": 4
@@ -1064,6 +1118,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal54",
   "result": {
    "name": "Chromatic Metal",
    "amount": 5
@@ -1088,6 +1143,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal55",
   "result": {
    "name": "Chromatic Metal",
    "amount": 6
@@ -1108,6 +1164,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Chromatic Metal56",
   "result": {
    "name": "Chromatic Metal",
    "amount": 8
@@ -1128,6 +1185,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Cobalt57",
   "result": {
    "name": "Cobalt",
    "amount": 2
@@ -1144,6 +1202,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon58",
   "result": {
    "name": "Condensed Carbon",
    "amount": 1
@@ -1160,6 +1219,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon59",
   "result": {
    "name": "Condensed Carbon",
    "amount": 150
@@ -1176,6 +1236,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon60",
   "result": {
    "name": "Condensed Carbon",
    "amount": 2
@@ -1196,6 +1257,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon61",
   "result": {
    "name": "Condensed Carbon",
    "amount": 2
@@ -1216,6 +1278,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon62",
   "result": {
    "name": "Condensed Carbon",
    "amount": 2
@@ -1236,6 +1299,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon63",
   "result": {
    "name": "Condensed Carbon",
    "amount": 3
@@ -1256,6 +1320,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon64",
   "result": {
    "name": "Condensed Carbon",
    "amount": 5
@@ -1276,6 +1341,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Condensed Carbon65",
   "result": {
    "name": "Condensed Carbon",
    "amount": 6
@@ -1296,6 +1362,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Copper66",
   "result": {
    "name": "Copper",
    "amount": 4
@@ -1316,6 +1383,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Destablised Sodium67",
   "result": {
    "name": "Destablised Sodium",
    "amount": 1
@@ -1336,6 +1404,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Destablised Sodium68",
   "result": {
    "name": "Destablised Sodium",
    "amount": 1
@@ -1360,6 +1429,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Deuterium69",
   "result": {
    "name": "Deuterium",
    "amount": 1
@@ -1380,6 +1450,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Di-hydrogen Jelly70",
   "result": {
    "name": "Di-hydrogen Jelly",
    "amount": 1
@@ -1396,6 +1467,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Di-hydrogen71",
   "result": {
    "name": "Di-hydrogen",
    "amount": 1
@@ -1412,6 +1484,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Di-hydrogen72",
   "result": {
    "name": "Di-hydrogen",
    "amount": 50
@@ -1428,6 +1501,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dioxite73",
   "result": {
    "name": "Dioxite",
    "amount": 1
@@ -1448,6 +1522,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dioxite74",
   "result": {
    "name": "Dioxite",
    "amount": 1
@@ -1468,6 +1543,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dioxite75",
   "result": {
    "name": "Dioxite",
    "amount": 1
@@ -1488,6 +1564,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dioxite76",
   "result": {
    "name": "Dioxite",
    "amount": 1
@@ -1508,6 +1585,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dioxite77",
   "result": {
    "name": "Dioxite",
    "amount": 2
@@ -1528,6 +1606,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze78",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1552,6 +1631,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze79",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1576,6 +1656,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze80",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1600,6 +1681,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze81",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1624,6 +1706,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze82",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1648,6 +1731,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze83",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1672,6 +1756,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze84",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1696,6 +1781,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Dirty Bronze85",
   "result": {
    "name": "Dirty Bronze",
    "amount": 1
@@ -1720,6 +1806,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Emeril86",
   "result": {
    "name": "Emeril",
    "amount": 4
@@ -1740,6 +1827,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Enriched Carbon87",
   "result": {
    "name": "Enriched Carbon",
    "amount": 1
@@ -1764,6 +1852,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Enriched Carbon88",
   "result": {
    "name": "Enriched Carbon",
    "amount": 1
@@ -1788,6 +1877,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Enriched Carbon89",
   "result": {
    "name": "Enriched Carbon",
    "amount": 1
@@ -1812,6 +1902,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Enriched Carbon90",
   "result": {
    "name": "Enriched Carbon",
    "amount": 1
@@ -1836,6 +1927,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Faecium91",
   "result": {
    "name": "Faecium",
    "amount": 1
@@ -1856,6 +1948,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Faecium92",
   "result": {
    "name": "Faecium",
    "amount": 1
@@ -1872,6 +1965,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Faecium93",
   "result": {
    "name": "Faecium",
    "amount": 1
@@ -1892,6 +1986,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Faecium94",
   "result": {
    "name": "Faecium",
    "amount": 3
@@ -1912,6 +2007,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Faecium95",
   "result": {
    "name": "Faecium",
    "amount": 3
@@ -1932,6 +2028,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Faecium96",
   "result": {
    "name": "Faecium",
    "amount": 4
@@ -1952,6 +2049,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust97",
   "result": {
    "name": "Ferrite Dust",
    "amount": 1
@@ -1968,6 +2066,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust98",
   "result": {
    "name": "Ferrite Dust",
    "amount": 1
@@ -1984,6 +2083,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust99",
   "result": {
    "name": "Ferrite Dust",
    "amount": 1
@@ -2000,6 +2100,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust100",
   "result": {
    "name": "Ferrite Dust",
    "amount": 1
@@ -2016,6 +2117,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust101",
   "result": {
    "name": "Ferrite Dust",
    "amount": 1
@@ -2032,6 +2134,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust102",
   "result": {
    "name": "Ferrite Dust",
    "amount": 1
@@ -2048,6 +2151,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ferrite Dust103",
   "result": {
    "name": "Ferrite Dust",
    "amount": 2
@@ -2064,6 +2168,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Frost Crystal104",
   "result": {
    "name": "Frost Crystal",
    "amount": 1
@@ -2084,6 +2189,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Frost Crystal105",
   "result": {
    "name": "Frost Crystal",
    "amount": 1
@@ -2104,6 +2210,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Frost Crystal106",
   "result": {
    "name": "Frost Crystal",
    "amount": 2
@@ -2124,6 +2231,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Fungal Mould107",
   "result": {
    "name": "Fungal Mould",
    "amount": 1
@@ -2144,6 +2252,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Fungal Mould108",
   "result": {
    "name": "Fungal Mould",
    "amount": 1
@@ -2164,6 +2273,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Fungal Mould109",
   "result": {
    "name": "Fungal Mould",
    "amount": 2
@@ -2184,6 +2294,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gamma Root110",
   "result": {
    "name": "Gamma Root",
    "amount": 1
@@ -2204,6 +2315,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gamma Root111",
   "result": {
    "name": "Gamma Root",
    "amount": 1
@@ -2224,6 +2336,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gamma Root112",
   "result": {
    "name": "Gamma Root",
    "amount": 2
@@ -2244,6 +2357,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Glass113",
   "result": {
    "name": "Glass",
    "amount": 1
@@ -2260,6 +2374,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Glass114",
   "result": {
    "name": "Glass",
    "amount": 1
@@ -2276,6 +2391,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold115",
   "result": {
    "name": "Gold",
    "amount": 1
@@ -2296,6 +2412,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold116",
   "result": {
    "name": "Gold",
    "amount": 1
@@ -2312,6 +2429,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold117",
   "result": {
    "name": "Gold",
    "amount": 1
@@ -2332,6 +2450,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold118",
   "result": {
    "name": "Gold",
    "amount": 10
@@ -2356,6 +2475,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold119",
   "result": {
    "name": "Gold",
    "amount": 125
@@ -2372,6 +2492,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold120",
   "result": {
    "name": "Gold",
    "amount": 125
@@ -2388,6 +2509,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold121",
   "result": {
    "name": "Gold",
    "amount": 125
@@ -2404,6 +2526,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Gold122",
   "result": {
    "name": "Gold",
    "amount": 2
@@ -2424,6 +2547,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine123",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2448,6 +2572,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine124",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2472,6 +2597,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine125",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2496,6 +2622,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine126",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2520,6 +2647,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine127",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2544,6 +2672,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine128",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2568,6 +2697,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine129",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2592,6 +2722,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Grantine130",
   "result": {
    "name": "Grantine",
    "amount": 1
@@ -2616,6 +2747,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox131",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2640,6 +2772,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox132",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2664,6 +2797,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox133",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2688,6 +2822,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox134",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2712,6 +2847,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox135",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2736,6 +2872,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox136",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2760,6 +2897,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox137",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2784,6 +2922,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Herox138",
   "result": {
    "name": "Herox",
    "amount": 1
@@ -2808,6 +2947,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Indium139",
   "result": {
    "name": "Indium",
    "amount": 4
@@ -2828,6 +2968,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ion Battery140",
   "result": {
    "name": "Ion Battery",
    "amount": 1
@@ -2852,6 +2993,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt141",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 1
@@ -2868,6 +3010,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt142",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 150
@@ -2884,6 +3027,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt143",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 2
@@ -2904,6 +3048,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt144",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 2
@@ -2924,6 +3069,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt145",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 2
@@ -2944,6 +3090,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt146",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 2
@@ -2964,6 +3111,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt147",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 5
@@ -2984,6 +3132,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Ionised Cobalt148",
   "result": {
    "name": "Ionised Cobalt",
    "amount": 6
@@ -3004,6 +3153,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Kelp Sac149",
   "result": {
    "name": "Kelp Sac",
    "amount": 1
@@ -3024,6 +3174,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium150",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3048,6 +3199,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium151",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3072,6 +3224,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium152",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3096,6 +3249,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium153",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3120,6 +3274,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium154",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3144,6 +3299,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium155",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3168,6 +3324,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium156",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3192,6 +3349,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Lemmium157",
   "result": {
    "name": "Lemmium",
    "amount": 1
@@ -3216,6 +3374,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Life Support Gel158",
   "result": {
    "name": "Life Support Gel",
    "amount": 1
@@ -3240,6 +3399,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Living Slime159",
   "result": {
    "name": "Living Slime",
    "amount": 1
@@ -3256,6 +3416,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite160",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 1
@@ -3276,6 +3437,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite161",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 1
@@ -3292,6 +3454,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite162",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 1
@@ -3312,6 +3475,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite163",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 10
@@ -3332,6 +3496,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite164",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 12
@@ -3356,6 +3521,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite165",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 2
@@ -3376,6 +3542,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite166",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 2
@@ -3396,6 +3563,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite167",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 2
@@ -3416,6 +3584,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite168",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 2
@@ -3436,6 +3605,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite169",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 3
@@ -3456,6 +3626,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite170",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 3
@@ -3476,6 +3647,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite171",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 3
@@ -3496,6 +3668,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite172",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 4
@@ -3516,6 +3689,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite173",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 4
@@ -3536,6 +3710,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite174",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 4
@@ -3556,6 +3731,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite175",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 5
@@ -3580,6 +3756,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite176",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 6
@@ -3600,6 +3777,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite177",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 8
@@ -3624,6 +3802,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magnetised Ferrite178",
   "result": {
    "name": "Magnetised Ferrite",
    "amount": 8
@@ -3644,6 +3823,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold179",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3668,6 +3848,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold180",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3692,6 +3873,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold181",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3716,6 +3898,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold182",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3740,6 +3923,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold183",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3764,6 +3948,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold184",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3788,6 +3973,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold185",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3812,6 +3998,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Magno-Gold186",
   "result": {
    "name": "Magno-Gold",
    "amount": 1
@@ -3836,6 +4023,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Marrow Bulb187",
   "result": {
    "name": "Marrow Bulb",
    "amount": 1
@@ -3856,6 +4044,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Marrow Bulb188",
   "result": {
    "name": "Marrow Bulb",
    "amount": 3
@@ -3876,6 +4065,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Marrow Bulb189",
   "result": {
    "name": "Marrow Bulb",
    "amount": 4
@@ -3896,6 +4086,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Mordite190",
   "result": {
    "name": "Mordite",
    "amount": 1
@@ -3916,6 +4107,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Mordite191",
   "result": {
    "name": "Mordite",
    "amount": 1
@@ -3936,6 +4128,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Mordite192",
   "result": {
    "name": "Mordite",
    "amount": 2
@@ -3956,6 +4149,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Mordite193",
   "result": {
    "name": "Mordite",
    "amount": 2
@@ -3972,6 +4166,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nanite Clusters194",
   "result": {
    "name": "Nanite Clusters",
    "amount": 1
@@ -3992,6 +4187,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nanite Clusters195",
   "result": {
    "name": "Nanite Clusters",
    "amount": 1
@@ -4008,6 +4204,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nanite Clusters196",
   "result": {
    "name": "Nanite Clusters",
    "amount": 1
@@ -4024,6 +4221,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nanite Clusters197",
   "result": {
    "name": "Nanite Clusters",
    "amount": 1
@@ -4040,6 +4238,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nanite Clusters198",
   "result": {
    "name": "Nanite Clusters",
    "amount": 1
@@ -4064,6 +4263,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen Salt199",
   "result": {
    "name": "Nitrogen Salt",
    "amount": 1
@@ -4088,6 +4288,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen Salt200",
   "result": {
    "name": "Nitrogen Salt",
    "amount": 1
@@ -4112,6 +4313,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen Salt201",
   "result": {
    "name": "Nitrogen Salt",
    "amount": 1
@@ -4136,6 +4338,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen Salt202",
   "result": {
    "name": "Nitrogen Salt",
    "amount": 1
@@ -4160,6 +4363,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen203",
   "result": {
    "name": "Nitrogen",
    "amount": 1
@@ -4180,6 +4384,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen204",
   "result": {
    "name": "Nitrogen",
    "amount": 1
@@ -4200,6 +4405,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Nitrogen205",
   "result": {
    "name": "Nitrogen",
    "amount": 1
@@ -4216,6 +4422,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen206",
   "result": {
    "name": "Oxygen",
    "amount": 1
@@ -4232,6 +4439,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen207",
   "result": {
    "name": "Oxygen",
    "amount": 10
@@ -4256,6 +4464,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen208",
   "result": {
    "name": "Oxygen",
    "amount": 10
@@ -4280,6 +4489,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen209",
   "result": {
    "name": "Oxygen",
    "amount": 10
@@ -4304,6 +4514,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen210",
   "result": {
    "name": "Oxygen",
    "amount": 10
@@ -4328,6 +4539,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen211",
   "result": {
    "name": "Oxygen",
    "amount": 10
@@ -4352,6 +4564,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen212",
   "result": {
    "name": "Oxygen",
    "amount": 10
@@ -4376,6 +4589,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen213",
   "result": {
    "name": "Oxygen",
    "amount": 150
@@ -4392,6 +4606,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen214",
   "result": {
    "name": "Oxygen",
    "amount": 2
@@ -4412,6 +4627,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Oxygen215",
   "result": {
    "name": "Oxygen",
    "amount": 2
@@ -4432,6 +4648,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium216",
   "result": {
    "name": "Paraffinium",
    "amount": 1
@@ -4452,6 +4669,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium217",
   "result": {
    "name": "Paraffinium",
    "amount": 1
@@ -4472,6 +4690,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium218",
   "result": {
    "name": "Paraffinium",
    "amount": 1
@@ -4492,6 +4711,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium219",
   "result": {
    "name": "Paraffinium",
    "amount": 1
@@ -4512,6 +4732,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium220",
   "result": {
    "name": "Paraffinium",
    "amount": 2
@@ -4532,6 +4753,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium221",
   "result": {
    "name": "Paraffinium",
    "amount": 2
@@ -4552,6 +4774,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Paraffinium222",
   "result": {
    "name": "Paraffinium",
    "amount": 3
@@ -4572,6 +4795,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Phosphorus223",
   "result": {
    "name": "Phosphorus",
    "amount": 1
@@ -4592,6 +4816,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Phosphorus224",
   "result": {
    "name": "Phosphorus",
    "amount": 1
@@ -4612,6 +4837,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Phosphorus225",
   "result": {
    "name": "Phosphorus",
    "amount": 1
@@ -4632,6 +4858,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Platinum226",
   "result": {
    "name": "Platinum",
    "amount": 1
@@ -4652,6 +4879,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Platinum227",
   "result": {
    "name": "Platinum",
    "amount": 10
@@ -4676,6 +4904,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Platinum228",
   "result": {
    "name": "Platinum",
    "amount": 250
@@ -4692,6 +4921,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Platinum229",
   "result": {
    "name": "Platinum",
    "amount": 250
@@ -4708,6 +4938,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pure Ferrite230",
   "result": {
    "name": "Pure Ferrite",
    "amount": 1
@@ -4724,6 +4955,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pure Ferrite231",
   "result": {
    "name": "Pure Ferrite",
    "amount": 150
@@ -4740,6 +4972,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pure Ferrite232",
   "result": {
    "name": "Pure Ferrite",
    "amount": 2
@@ -4756,6 +4989,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pure Ferrite233",
   "result": {
    "name": "Pure Ferrite",
    "amount": 3
@@ -4776,6 +5010,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pyrite234",
   "result": {
    "name": "Pyrite",
    "amount": 1
@@ -4796,6 +5031,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pyrite235",
   "result": {
    "name": "Pyrite",
    "amount": 1
@@ -4816,6 +5052,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pyrite236",
   "result": {
    "name": "Pyrite",
    "amount": 1
@@ -4836,6 +5073,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pyrite237",
   "result": {
    "name": "Pyrite",
    "amount": 1
@@ -4852,6 +5090,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Pyrite238",
   "result": {
    "name": "Pyrite",
    "amount": 2
@@ -4872,6 +5111,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Radon239",
   "result": {
    "name": "Radon",
    "amount": 1
@@ -4892,6 +5132,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Radon240",
   "result": {
    "name": "Radon",
    "amount": 1
@@ -4912,6 +5153,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Radon241",
   "result": {
    "name": "Radon",
    "amount": 1
@@ -4928,6 +5170,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Rare Metal Element242",
   "result": {
    "name": "Rare Metal Element",
    "amount": 1
@@ -4948,6 +5191,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Rare Metal Element243",
   "result": {
    "name": "Rare Metal Element",
    "amount": 1
@@ -4972,6 +5216,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Rare Metal Element244",
   "result": {
    "name": "Rare Metal Element",
    "amount": 1
@@ -4996,6 +5241,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Runaway Mould245",
   "result": {
    "name": "Runaway Mould",
    "amount": 1
@@ -5012,6 +5258,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Rusted Metal246",
   "result": {
    "name": "Rusted Metal",
    "amount": 1
@@ -5032,6 +5279,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Rusted Metal247",
   "result": {
    "name": "Rusted Metal",
    "amount": 2
@@ -5052,6 +5300,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Salt248",
   "result": {
    "name": "Salt",
    "amount": 1
@@ -5072,6 +5321,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Salt249",
   "result": {
    "name": "Salt",
    "amount": 2
@@ -5088,6 +5338,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Silver250",
   "result": {
    "name": "Silver",
    "amount": 250
@@ -5104,6 +5355,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Silver251",
   "result": {
    "name": "Silver",
    "amount": 250
@@ -5120,6 +5372,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Silver252",
   "result": {
    "name": "Silver",
    "amount": 250
@@ -5136,6 +5389,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate253",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 1
@@ -5156,6 +5410,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate254",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 1
@@ -5176,6 +5431,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate255",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 1
@@ -5196,6 +5452,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate256",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 1
@@ -5216,6 +5473,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate257",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 1
@@ -5232,6 +5490,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate258",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 1
@@ -5252,6 +5511,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate259",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 150
@@ -5268,6 +5528,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate260",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5288,6 +5549,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate261",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5308,6 +5570,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate262",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5328,6 +5591,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate263",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5348,6 +5612,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate264",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5368,6 +5633,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate265",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5388,6 +5654,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate266",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5408,6 +5675,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate267",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5428,6 +5696,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate268",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5448,6 +5717,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate269",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5468,6 +5738,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate270",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 2
@@ -5488,6 +5759,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate271",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 3
@@ -5508,6 +5780,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium Nitrate272",
   "result": {
    "name": "Sodium Nitrate",
    "amount": 3
@@ -5528,6 +5801,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium273",
   "result": {
    "name": "Sodium",
    "amount": 1
@@ -5544,6 +5818,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium274",
   "result": {
    "name": "Sodium",
    "amount": 2
@@ -5564,6 +5839,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sodium275",
   "result": {
    "name": "Sodium",
    "amount": 2
@@ -5580,6 +5856,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Solanium276",
   "result": {
    "name": "Solanium",
    "amount": 1
@@ -5600,6 +5877,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Solanium277",
   "result": {
    "name": "Solanium",
    "amount": 1
@@ -5620,6 +5898,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Solanium278",
   "result": {
    "name": "Solanium",
    "amount": 1
@@ -5640,6 +5919,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Solanium279",
   "result": {
    "name": "Solanium",
    "amount": 2
@@ -5660,6 +5940,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Star Bulb280",
   "result": {
    "name": "Star Bulb",
    "amount": 1
@@ -5680,6 +5961,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Star Bulb281",
   "result": {
    "name": "Star Bulb",
    "amount": 1
@@ -5700,6 +5982,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Star Bulb282",
   "result": {
    "name": "Star Bulb",
    "amount": 2
@@ -5720,6 +6003,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Starship Launch Fuel283",
   "result": {
    "name": "Starship Launch Fuel",
    "amount": 1
@@ -5744,6 +6028,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Starship Launch Fuel284",
   "result": {
    "name": "Starship Launch Fuel",
    "amount": 1
@@ -5768,6 +6053,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Starship Launch Fuel285",
   "result": {
    "name": "Starship Launch Fuel",
    "amount": 1
@@ -5792,6 +6078,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sulphurine286",
   "result": {
    "name": "Sulphurine",
    "amount": 1
@@ -5812,6 +6099,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sulphurine287",
   "result": {
    "name": "Sulphurine",
    "amount": 1
@@ -5832,6 +6120,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Sulphurine288",
   "result": {
    "name": "Sulphurine",
    "amount": 1
@@ -5848,6 +6137,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Superoxide Crystal289",
   "result": {
    "name": "Superoxide Crystal",
    "amount": 1
@@ -5868,6 +6158,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Superoxide Crystal290",
   "result": {
    "name": "Superoxide Crystal",
    "amount": 1
@@ -5892,6 +6183,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "TetraCobalt291",
   "result": {
    "name": "TetraCobalt",
    "amount": 1
@@ -5912,6 +6204,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "TetraCobalt292",
   "result": {
    "name": "TetraCobalt",
    "amount": 1
@@ -5936,6 +6229,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Thermic Condensate293",
   "result": {
    "name": "Thermic Condensate",
    "amount": 1
@@ -5960,6 +6254,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Thermic Condensate294",
   "result": {
    "name": "Thermic Condensate",
    "amount": 1
@@ -5984,6 +6279,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Thermic Condensate295",
   "result": {
    "name": "Thermic Condensate",
    "amount": 1
@@ -6008,6 +6304,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Thermic Condensate296",
   "result": {
    "name": "Thermic Condensate",
    "amount": 1
@@ -6032,6 +6329,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Unstable Plasma297",
   "result": {
    "name": "Unstable Plasma",
    "amount": 1
@@ -6056,6 +6354,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Unstable Plasma298",
   "result": {
    "name": "Unstable Plasma",
    "amount": 1
@@ -6080,6 +6379,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Unstable Plasma299",
   "result": {
    "name": "Unstable Plasma",
    "amount": 1
@@ -6104,6 +6404,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Unstable Plasma300",
   "result": {
    "name": "Unstable Plasma",
    "amount": 1
@@ -6128,6 +6429,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium301",
   "result": {
    "name": "Uranium",
    "amount": 1
@@ -6148,6 +6450,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium302",
   "result": {
    "name": "Uranium",
    "amount": 1
@@ -6168,6 +6471,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium303",
   "result": {
    "name": "Uranium",
    "amount": 1
@@ -6188,6 +6492,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium304",
   "result": {
    "name": "Uranium",
    "amount": 1
@@ -6208,6 +6513,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium305",
   "result": {
    "name": "Uranium",
    "amount": 1
@@ -6228,6 +6534,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium306",
   "result": {
    "name": "Uranium",
    "amount": 2
@@ -6248,6 +6555,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Uranium307",
   "result": {
    "name": "Uranium",
    "amount": 3
@@ -6268,6 +6576,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Viscous Fluid308",
   "result": {
    "name": "Viscous Fluid",
    "amount": 1
@@ -6284,6 +6593,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Warp Cell309",
   "result": {
    "name": "Warp Cell",
    "amount": 1
@@ -6308,6 +6618,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Warp Cell310",
   "result": {
    "name": "Warp Cell",
    "amount": 1
@@ -6332,6 +6643,7 @@ export const refiner = [
   ]
  },
  {
+  "id": "Warp Cell311",
   "result": {
    "name": "Warp Cell",
    "amount": 1

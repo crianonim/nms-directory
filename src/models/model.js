@@ -48,4 +48,23 @@ const fillMissingWithEmptyData=()=>{
     return thingsMissing
 }
 
+export const updateStarred=()=>{
+    const store=JSON.parse(localStorage.getItem('nms-starred-recipes')||"[]")
+    refiner.forEach( (recipe,i)=>{
+        recipe.starred=store.includes(i)
+    })
+}
+export const toggleStarred=(id)=>{
+    const store=JSON.parse(localStorage.getItem('nms-starred-recipes')||"[]")
+    if (store.includes(id)){
+        console.log({id},store.filter(el=>el!==id))
+       localStorage.setItem("nms-starred-recipes", JSON.stringify(store.filter(el=>el!==id)))
+    } else {
+        localStorage.setItem("nms-starred-recipes",JSON.stringify(store.concat(id)));
+    }
+    updateStarred();
+}
+
 items= [...items,...fillMissingWithEmptyData()]
+
+

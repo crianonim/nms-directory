@@ -15,9 +15,8 @@ const cont = fs
   .map(line =>line.split(",")
   )
   .filter(line => line.length)
-  .map(line =>
-    Object.fromEntries(line.map((field, i) => [resourcesFields[i], field]))
-  );
+  .map( (line,id) =>
+    Object.fromEntries(line.map((field, i) => [resourcesFields[i], field]).concat([['id',id]])));
 
 fs.writeFileSync(
   path.join(__dirname, "data","resources.js"),
@@ -29,7 +28,8 @@ const refinery = fs
   .split("\n")
   .map(line => line.split(","))
   .filter(line=>line[0])
-  .map(line => ({
+  .map((line,id) => ({
+    id,
     result: { name: line[0], amount: Number(line[1]) },
     process: { name: line[3], duration: Number(line[2]) },
     ingredients: line.slice(4,10)
