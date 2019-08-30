@@ -1,5 +1,6 @@
 import {resources} from './data/resources';
 import {refiner} from './data/refiner';
+import {crafting} from './data/crafting';
 
 const craftables=[
     "Glass","Nanite Clusters","Di-hydrogen Jelly","Viscous Fluid"
@@ -8,7 +9,7 @@ const craftables=[
 
 
 export const list=()=>{
-    return { items ,refiner,craftables}
+    return { items ,refiner,crafting,craftables}
 }
 
 let items=[...resources]
@@ -20,6 +21,14 @@ export const recipesThatProduceInRefiner=(name)=>{
 
 export const recipesThatUseIngredient=(name)=>{
     return refiner.filter(recipe=>recipe.ingredients.some(ing=>ing.name===name))
+}
+
+export const recipesThatCraft=(name)=>{
+    return crafting.filter(recipe=>recipe.result.name===name)
+}
+
+export const recipesThatUseInCrafting=(name)=>{
+    return crafting.filter(recipe=>recipe.ingredients.some(ing=>ing.name===name))
 }
 
 const fillMissingWithEmptyData=()=>{
@@ -37,7 +46,12 @@ const fillMissingWithEmptyData=()=>{
             addIfMissing(ing.name)
         })
     })
-
+    crafting.forEach(recipe=>{
+        addIfMissing(recipe.result.name);
+        recipe.ingredients.forEach(ing=>{
+            addIfMissing(ing.name)
+        })
+    })
     thingsMissing=thingsMissing.map(thing=>({
         name:thing,
         price:-1,
