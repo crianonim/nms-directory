@@ -1,3 +1,4 @@
+
 Ablative Armour,,,,Gold,100,Sodium Nitrate,50,Wiring Loom,1
 Access Ramp,,,,Pure Ferrite,50,Carbon,50
 Acid,,,,Mordite,25,Fungal Mould,600
@@ -12,8 +13,6 @@ Antimatter Reactor,,,,Storm Crystal,5,Antimatter,2,Metal Plating,2
 Appearance Modifier,,,,Ferrite Dust,10
 Aronium,,,,Paraffinium,50,Ionised Cobalt,50
 AtlasPass v1,,,,Copper,200,Microprocessor,1
-Atmosphere Harvester,,,,Ammonia,100,Metal Plating,2,Hermetic Seal,2
-Automated Feeder,,,,Metal Plating,4,Oxygen Filter,1,Creature Pellets,10
 Autonomous Mining Unit,,,,Uranium,100,Metal Plating,2,Advanced Ion Battery,1
 Barrel Fabricator,,,,Ionised Cobalt,10,Antimatter,1
 Barrel Ioniser,,,,Cobalt Mirror,1,Wiring Loom,1
@@ -21,7 +20,6 @@ Base Computer,,,,Chromatic Metal,40
 Base Salvage Capsule,,,,Pure Ferrite,50
 Base Teleport Module,,,,Metal Plating,4,Carbon Nanotubes,2,Sodium,40
 Battery,,,,Magnetised Ferrite,60,Condensed Carbon,100
-Beacon,,,,Metal Plating,1,Ion Battery,2,Microprocessor,1
 Beacon Product,,,,Metal Plating,1,Ion Battery,2,Microprocessor,1
 Bed,,,,Condensed Carbon,10
 Bio-Dome,,,,Magnetised Ferrite,25,Glass,5
@@ -126,7 +124,6 @@ Gravitino Host,,,,Chromatic Metal,25,Silver,120,Magnetised Ferrite,25
 Grip Boost Suspension,,,,Magnetised Ferrite,50,Tritium,50,Wiring Loom,1
 Gutrot Flower,,,,Faecium,40
 Hazard Protection Unit base building,,,,Metal Plating,1,Ionised Cobalt,20,Phosphorus,50
-Hazard Protection Unit,,,,Metal Plating,1,Ionised Cobalt,20,Phosphorus,50
 Haz-Mat Gauntlet,,,,Chromatic Metal,50,Sodium Nitrate,20
 Health Station,,,,Metal Plating,1,Ionised Cobalt,20,Uranium,50
 Heat Capacitor,,,,Frost Crystal,100,Solanium,200
@@ -190,7 +187,6 @@ Mineral Compressor,,,,Cobalt Mirror,1,Gold,50
 Moon Pool Floor,,,,Pure Ferrite,350,Crystal Sulphide,6,Living Pearl,2
 Mordite Root,,,,Mordite,40
 Nautilon Cannon,,,,Chlorine,100,Crystal Sulphide,6,Living Pearl,2
-Nautilon Chamber,,,,Metal Plating,5,Crystal Sulphide,4,Salt,100
 Neural Stimulator,,,,Chromatic Metal,100,Condensed Carbon,100
 NipNip,,,,NipNip Buds,1,Faecium,20
 Nitrogen Salt,,,,Nitrogen,250,Condensed Carbon,50
@@ -253,7 +249,6 @@ Standing Planter,,,,Carbon,20
 Star Bramble,,,,Star Bulb,50,Paraffinium,25
 Star Seed,,,,Platinum,16,Tritium,16,Gold,16
 Starship Launch Fuel,,,,Di-hydrogen,40,Metal Plating,1
-Starship Launch Fuel,,,,Metal Plating,1,Di-hydrogen,40,,
 Storage Container,,,,Magnetised Ferrite,50,Sodium,20
 Straight Corridor,,,,Pure Ferrite,100
 Superoxide Crystal,,,,Oxygen,150

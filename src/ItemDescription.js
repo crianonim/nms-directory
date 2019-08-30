@@ -38,6 +38,36 @@ export default ({item,setActiveItem})=>{
                 </ul>
               </>
             ) : null}
+            {model.recipesThatCraft(item.name).length ? (
+              <>
+                <h2>Can be Crafted</h2>
+                <ul>
+                  {model
+                    .recipesThatCraft(item.name)
+                    .map((recipe, i) => (
+                      <li key={recipe.result.name + i}>
+                        <Recipe setActiveItem={setActiveItem} recipe={recipe}/>
+                      </li>
+                    ))}
+                </ul>
+              </>
+            ) : null}
+
+
+        {model.recipesThatUseInCrafting(item.name).length ? (
+              <>
+                <h2>Is used in Crafting</h2>
+                <ul>
+                  {model
+                    .recipesThatUseInCrafting(item.name)
+                    .map((recipe, i) => (
+                      <li key={recipe.result.name + i}>
+                       <Recipe setActiveItem={setActiveItem} recipe={recipe} selectedItem={item.name}/>
+                      </li>
+                    ))}
+                </ul>
+              </>
+            ) : null}
         </>
     )
 }
