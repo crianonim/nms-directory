@@ -10,4 +10,9 @@
 }
 .item-info {
     margin-left: 1rem;
+    flex-grow: 1;
+}
+.list-panel, .item-info {
+    height:95vh;
+    overflow-y: scroll;
 }
