@@ -12,7 +12,7 @@ export const list=()=>{
     return { items ,refiner,crafting,craftables}
 }
 
-let items=[...resources]
+let items=[]
 
 
 export const recipesThatProduceInRefiner=(name)=>{
@@ -58,7 +58,7 @@ const fillMissingWithEmptyData=()=>{
         category:'Unknown',
         rarity:"Unknown"
     }))
-    console.log(thingsMissing)
+    console.log(thingsMissing.map(el=>el.name).join(','))
     return thingsMissing
 }
 

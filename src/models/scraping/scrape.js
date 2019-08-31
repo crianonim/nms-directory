@@ -3,7 +3,7 @@ const base = "https://nomanssky.gamepedia.com/";
 const fs = require("fs");
 const path = require("path");
 const parser = require("node-html-parser");
-
+let downloadCount = 0
 const normalizeName = name => name.replace(/\s/g, "_");
 
 const download = async (name, force) => {
@@ -12,7 +12,7 @@ const download = async (name, force) => {
   return new Promise((resolve, reject) => {
     fs.readFile(htmlFilePath, "utf8", async (err, text) => {
       if (err) {
-        console.log("Download", htmlFilePath);
+        console.log("Download", htmlFilePath,++downloadCount);
         const result = await fetch(base + n);
         text = await result.text();
         fs.writeFileSync(htmlFilePath, text);
