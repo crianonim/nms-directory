@@ -1,506 +1,232 @@
 export const resources = [
  {
-  "name": "Activated Cadmium",
-  "abbreviation": "Cd",
-  "category": "Stellar",
-  "rarity": "Rare",
-  "price": "450.0",
-  "ver": "1.5",
-  "id": 0
- },
- {
-  "name": "Activated Copper",
-  "abbreviation": "Cu",
-  "category": "Stellar",
-  "rarity": "Rare",
-  "price": "245.0",
-  "ver": "1.5",
-  "id": 1
- },
- {
-  "name": "Activated Emeril",
-  "abbreviation": "Em",
-  "category": "Stellar",
-  "rarity": "Rare",
-  "price": "696.0",
-  "ver": "1.5",
-  "id": 2
- },
- {
-  "name": "Activated Indium",
-  "abbreviation": "In",
-  "category": "Stellar",
-  "rarity": "Rare",
-  "price": "949.0",
-  "ver": "1.5",
-  "id": 3
+  "name": "Ablative Armour",
+  "category": "Ship - Shield",
+  "type": "Starship Shield Upgrade"
  },
  {
   "name": "Ammonia",
-  "abbreviation": "NH3",
-  "category": "Localised",
+  "category": "Earth",
+  "type": "Localised Earth Element",
   "rarity": "Uncommon",
-  "price": "62.0",
-  "ver": "1.5",
-  "id": 4
+  "price": 62,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "NH3"
+ },
+ {
+  "name": "Advanced Ion Battery",
+  "category": "Consumable",
+  "type": "Portable Energy Storage",
+  "price": 500,
+  "usedFor": "Building, Charging"
+ },
+ {
+  "name": "Antimatter Housing",
+  "category": "Component",
+  "type": "Crafted Technology Component",
+  "price": 6500
+ },
+ {
+  "name": "Antimatter Reactor",
+  "category": "Base Building",
+  "type": "Baryogenesis Unit"
+ },
+ {
+  "name": "Aronium",
+  "category": "Trade Item",
+  "type": "Alloy Metal",
+  "price": 25000
  },
  {
   "name": "Cactus Flesh",
-  "abbreviation": "Cc",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "28.0",
-  "ver": "1.1",
-  "id": 5
- },
- {
-  "name": "Cadmium",
-  "abbreviation": "Cd",
-  "category": "Stellar",
-  "rarity": "Uncommon",
-  "price": "234.0",
-  "ver": "1.5",
-  "id": 6
+  "category": "Flora",
+  "type": "Harvested Agricultural Substance",
+  "rarity": "Rare",
+  "price": 28,
+  "usedFor": "Building, Crafting",
+  "abbreviation": "Cc"
  },
  {
   "name": "Carbon",
-  "abbreviation": "C",
-  "category": "Organic",
+  "category": "Fuel",
+  "type": "Unrefined Organic Element",
   "rarity": "Common",
-  "price": "12.0",
-  "ver": "1.0",
-  "id": 7
- },
- {
-  "name": "Chlorine",
-  "abbreviation": "Cl",
-  "category": "Aquatic",
-  "rarity": "Rare",
-  "price": "602.0",
-  "ver": "1.5",
-  "id": 8
- },
- {
-  "name": "Chromatic Metal",
-  "abbreviation": "Ch",
-  "category": "Stellar",
-  "rarity": "Uncommon",
-  "price": "245.0",
-  "ver": "1.5",
-  "id": 9
+  "price": 12,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "C"
  },
  {
   "name": "Cobalt",
-  "abbreviation": "Co",
-  "category": "Subterranean",
+  "category": "Earth",
+  "type": "Subterranean Mineral",
   "rarity": "Common",
-  "price": "198.0",
-  "ver": "1.5",
-  "id": 10
- },
- {
-  "name": "Condensed Carbon",
-  "abbreviation": "C+",
-  "category": "Organic",
-  "rarity": "Uncommon",
-  "price": "24.0",
-  "ver": "1.5",
-  "id": 11
- },
- {
-  "name": "Copper",
-  "abbreviation": "Cu",
-  "category": "Stellar",
-  "rarity": "Uncommon",
-  "price": "110.0",
-  "ver": "1.0",
-  "id": 12
- },
- {
-  "name": "Cyto-Phosphate",
-  "abbreviation": "Cy",
-  "category": "Organic Compound",
-  "rarity": "Common",
-  "price": "201.0",
-  "ver": "1.7",
-  "id": 13
- },
- {
-  "name": "Deuterium",
-  "abbreviation": "D",
-  "category": "High Energy",
-  "rarity": "Rare",
-  "price": "34.0",
-  "ver": "1.5",
-  "id": 14
+  "price": 198,
+  "usedFor": "Building, Crafting, Charging, Upgrading, Refining",
+  "abbreviation": "Co"
  },
  {
   "name": "Di-hydrogen",
-  "abbreviation": "H",
-  "category": "High Energy",
+  "category": "Earth",
+  "type": "High Energy Substance",
   "rarity": "Common",
-  "price": "34.0",
-  "ver": "1.5",
-  "id": 15
+  "price": 34,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "H"
  },
  {
-  "name": "Dioxite",
-  "abbreviation": "C02",
-  "category": "Localised",
-  "rarity": "Uncommon",
-  "price": "62.0",
-  "ver": "1.5",
-  "id": 16
- },
- {
-  "name": "Emeril",
-  "abbreviation": "Em",
-  "category": "Stellar",
-  "rarity": "Uncommon",
-  "price": "275.0",
-  "ver": "1.0",
-  "id": 17
- },
- {
-  "name": "Faecium",
-  "abbreviation": "Fa",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "30.0",
-  "ver": "1.1",
-  "id": 18
+  "name": "Copper",
+  "type": "Refined Stellar Metal: Yellow",
+  "rarity": "Common",
+  "price": 121,
+  "abbreviation": "Cu"
  },
  {
   "name": "Ferrite Dust",
-  "abbreviation": "Fe",
-  "category": "Metallic",
+  "category": "Metal",
+  "type": "Metallic Mineral Extract",
   "rarity": "Common",
-  "price": "14.0",
-  "ver": "1.5",
-  "id": 19
- },
- {
-  "name": "Frost Crystal",
-  "abbreviation": "Fc",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "12.0",
-  "ver": "1.1",
-  "id": 20
+  "price": 14,
+  "usedFor": "Building, Crafting, Charging, Upgrading, Refining",
+  "abbreviation": "Fe"
  },
  {
   "name": "Fungal Mould",
-  "abbreviation": "Ml",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "16.0",
-  "ver": "1.1",
-  "id": 21
- },
- {
-  "name": "Gamma Root",
-  "abbreviation": "Gr",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "16.0",
-  "ver": "1.1",
-  "id": 22
+  "category": "Flora",
+  "type": "Harvested Agricultural Substance",
+  "rarity": "Rare",
+  "price": 16,
+  "usedFor": "Building, Crafting",
+  "abbreviation": "Ml"
  },
  {
   "name": "Gold",
-  "abbreviation": "Au",
-  "category": "Asteroid",
+  "category": "Exotic",
+  "type": "Valuable Asteroid Mineral",
   "rarity": "Uncommon",
-  "price": "202.0",
-  "ver": "1.0",
-  "id": 23
+  "price": 353,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "Au"
  },
  {
-  "name": "Hexite",
-  "abbreviation": "X",
-  "category": "Organic",
-  "rarity": "Uncommon",
-  "price": "654.0",
-  "ver": "1.59",
-  "id": 24
- },
- {
-  "name": "Herox",
-  "abbreviation": "Xx",
-  "category": "Jan",
-  "rarity": "Skow",
-  "price": "666",
-  "ver": "1.0",
-  "id": 25
- },
- {
-  "name": "Indium",
-  "abbreviation": "In",
-  "category": "Stellar",
-  "rarity": "Uncommon",
-  "price": "464.0",
-  "ver": "1.5",
-  "id": 26
+  "name": "Metal Plating",
+  "category": "Component",
+  "type": "Crafted Technology Component",
+  "price": 800
  },
  {
   "name": "Ionised Cobalt",
-  "abbreviation": "Co+",
-  "category": "Subterranean",
-  "rarity": "Uncommon",
-  "price": "401.0",
-  "ver": "1.5",
-  "id": 27
- },
- {
-  "name": "Kelp Sac",
-  "abbreviation": "Ke",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "41.0",
-  "ver": "1.1",
-  "id": 28
- },
- {
-  "name": "Living Slime",
-  "abbreviation": "Jn",
-  "category": "Junk",
-  "rarity": "Uncommon",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 29
- },
- {
-  "name": "Magnetised Ferrite",
-  "abbreviation": "Fe++",
-  "category": "Metallic",
+  "category": "Earth",
+  "type": "Processed Subterranean Mineral",
   "rarity": "Rare",
-  "price": "82.0",
-  "ver": "1.5",
-  "id": 30
+  "price": 401,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "Co+"
  },
  {
-  "name": "Marrow Bulb",
-  "abbreviation": "Mb",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "41.0",
-  "ver": "1.1",
-  "id": 31
- },
- {
-  "name": "Mordite",
-  "abbreviation": "Mo",
-  "category": "Harvested",
-  "rarity": "Uncommon",
-  "price": "40.0",
-  "ver": "1.1",
-  "id": 32
+  "name": "Nanite Clusters",
+  "category": "Special",
+  "type": "Technological Currency",
+  "rarity": "Rare",
+  "usedFor": "Upgrading",
+  "abbreviation": "∞"
  },
  {
   "name": "Nitrogen",
-  "abbreviation": "N",
-  "category": "Gas",
-  "rarity": "Uncommon",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 33
- },
- {
-  "name": "Oxygen",
-  "abbreviation": "O2",
-  "category": "Organic",
-  "rarity": "Common",
-  "price": "34.0",
-  "ver": "1.5",
-  "id": 34
+  "category": "Earth",
+  "type": "Compressed Atmospheric Gas",
+  "rarity": "Rare",
+  "price": 20,
+  "usedFor": "Crafting, Charging",
+  "abbreviation": "N"
  },
  {
   "name": "Paraffinium",
-  "abbreviation": "Pf",
-  "category": "Localised",
+  "category": "Earth",
+  "type": "Localised Earth Element",
   "rarity": "Uncommon",
-  "price": "62.0",
-  "ver": "1.5",
-  "id": 35
+  "price": 62,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "Pf"
  },
  {
-  "name": "Phosphorus",
-  "abbreviation": "P",
-  "category": "Localised",
-  "rarity": "Uncommon",
-  "price": "62.0",
-  "ver": "1.5",
-  "id": 36
+  "name": "Oxygen",
+  "category": "Fuel",
+  "type": "Concentrated Liquid Fuel",
+  "rarity": "Common",
+  "price": 34,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "O2"
  },
  {
   "name": "Platinum",
-  "abbreviation": "Pt",
-  "category": "Asteroid",
+  "category": "Exotic",
+  "type": "Valuable Asteroid Mineral",
   "rarity": "Rare",
-  "price": "303.0",
-  "ver": "1.0",
-  "id": 37
- },
- {
-  "name": "Pugneum",
-  "abbreviation": "Pg",
-  "category": "Anomalous",
-  "rarity": "Rare",
-  "price": "138.0",
-  "ver": "1.1",
-  "id": 38
+  "price": 505,
+  "usedFor": "Building, Charging, Upgrading",
+  "abbreviation": "Pt"
  },
  {
   "name": "Pure Ferrite",
-  "abbreviation": "Fe+",
-  "category": "Metallic",
+  "category": "Metal",
+  "type": "Processed Metallic Minerals",
   "rarity": "Uncommon",
-  "price": "28.0",
-  "ver": "1.5",
-  "id": 39
+  "price": 28,
+  "usedFor": "Building, Crafting, Charging, Upgrading, Refining",
+  "abbreviation": "Fe+"
  },
  {
   "name": "Pyrite",
-  "abbreviation": "Py",
-  "category": "Localised",
+  "category": "Earth",
+  "type": "Localised Earth Element",
   "rarity": "Uncommon",
-  "price": "62.0",
-  "ver": "1.5",
-  "id": 40
- },
- {
-  "name": "Radon",
-  "abbreviation": "Rn",
-  "category": "Gas",
-  "rarity": "Uncommon",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 41
- },
- {
-  "name": "Residual Goop",
-  "abbreviation": "Jn",
-  "category": "Junk",
-  "rarity": "Common",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 42
- },
- {
-  "name": "Runaway Mould",
-  "abbreviation": "Jn",
-  "category": "Junk",
-  "rarity": "Uncommon",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 43
- },
- {
-  "name": "Rusted Metal",
-  "abbreviation": "Jn",
-  "category": "Junk",
-  "rarity": "Common",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 44
+  "price": 62,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "Py"
  },
  {
   "name": "Salt",
-  "abbreviation": "NaCl",
-  "category": "Aquatic",
-  "rarity": "Uncommon",
-  "price": "299.0",
-  "ver": "1.5",
-  "id": 45
- },
- {
-  "name": "Silicate Powder",
-  "abbreviation": "Si",
-  "category": "Metallic",
+  "category": "Earth",
+  "type": "Aquatic Mineral Extract",
   "rarity": "Common",
-  "price": "2.0",
-  "ver": "2.0",
-  "id": 46
+  "price": 299,
+  "usedFor": "Building, Crafting, Charging",
+  "abbreviation": "NaCl"
  },
  {
   "name": "Silver",
-  "abbreviation": "Ag",
-  "category": "Asteroid",
+  "category": "Exotic",
+  "type": "Valuable Asteroid Mineral",
   "rarity": "Common",
-  "price": "101.0",
-  "ver": "1.5",
-  "id": 47
+  "price": 186,
+  "usedFor": "Building, Charging, Upgrading, Refining",
+  "abbreviation": "Ag"
  },
  {
   "name": "Sodium Nitrate",
-  "abbreviation": "Na+",
-  "category": "Catalytic",
-  "rarity": "Uncommon",
-  "price": "82.0",
-  "ver": "1.5",
-  "id": 48
- },
- {
-  "name": "Sodium",
-  "abbreviation": "Na",
-  "category": "Catalytic",
-  "rarity": "Common",
-  "price": "41.0",
-  "ver": "1.5",
-  "id": 49
- },
- {
-  "name": "Solanium",
-  "abbreviation": "So",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "70.0",
-  "ver": "1.1",
-  "id": 50
- },
- {
-  "name": "Star Bulb",
-  "abbreviation": "Sb",
-  "category": "Agricultural",
-  "rarity": "Uncommon",
-  "price": "32.0",
-  "ver": "1.3",
-  "id": 51
+  "category": "Catalyst",
+  "type": "Refined Catalytic Element",
+  "rarity": "Rare",
+  "price": 82,
+  "usedFor": "Building, Crafting, Charging, Upgrading, Refining",
+  "abbreviation": "Na+"
  },
  {
   "name": "Sulphurine",
-  "abbreviation": "Su",
-  "category": "Gas",
-  "rarity": "Uncommon",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 52
+  "category": "Earth",
+  "type": "Compressed Atmospheric Gas",
+  "rarity": "Common",
+  "price": 20,
+  "usedFor": "Crafting, Charging",
+  "abbreviation": "Su"
  },
  {
   "name": "Tritium",
-  "abbreviation": "H3",
-  "category": "High Energy",
+  "category": "Exotic",
+  "type": "Neutron-Rich Fuel Element",
   "rarity": "Common",
-  "price": "6.0",
-  "ver": "1.5",
-  "id": 53
- },
- {
-  "name": "Uranium",
-  "abbreviation": "U",
-  "category": "Localised",
-  "rarity": "Uncommon",
-  "price": "62.0",
-  "ver": "1.5",
-  "id": 54
- },
- {
-  "name": "Viscous Fluids",
-  "abbreviation": "Jn",
-  "category": "Junk",
-  "rarity": "Uncommon",
-  "price": "20.0",
-  "ver": "1.3",
-  "id": 55
+  "price": 6,
+  "usedFor": "Building, Crafting, Charging, Upgrading",
+  "abbreviation": "H3"
  }
 ]

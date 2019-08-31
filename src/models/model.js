@@ -12,7 +12,7 @@ export const list=()=>{
     return { items ,refiner,crafting,craftables}
 }
 
-let items=[]
+let items=[...resources]
 
 
 export const recipesThatProduceInRefiner=(name)=>{

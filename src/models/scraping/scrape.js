@@ -74,4 +74,52 @@ const scrape = async name => {
   process(text, name);
 };
 
-module.exports = { download, extractInfobox, process, scrape };
+const createResourceFile=()=>{
+  let result=[]
+  const files=fs.readdirSync(path.join(__dirname,'data','json'));
+  let counter=files.length;
+  
+  files.forEach(fileName=>{
+    const fileNamePath=path.join(__dirname,"data","json",fileName)
+    fs.readFile(fileNamePath,'utf8',(err,contents)=>{
+      if (err){
+        console.log(err)
+      }
+      const fileData=JSON.parse(contents);
+      const dataObj={
+        name:fileName.split('.')[0].replace(/_/g,' ')
+      }
+      const keys=Object.keys(fileData);
+      keys.forEach(key=>{
+        if (key.toLowerCase().includes('value')){
+          dataObj.price=Number(fileData[key].split('.')[0].replace(",",""))
+        }    
+        if (key.toLowerCase()==='category'){
+          dataObj.category=fileData[key];
+        }
+        if (key.toLowerCase()==='type'){
+          dataObj.type=fileData[key];
+        }
+        if (key.toLowerCase()==='rarity'){
+          dataObj.rarity=fileData[key];
+        }
+        if (key.toLowerCase()==='symbol'){
+          dataObj.abbreviation=fileData[key];
+        }
+        if (key.toLowerCase()==='used for'){
+          dataObj.usedFor=fileData[key];
+        }
+      })
+      
+
+      result.push(dataObj)
+      counter--;
+      if (counter===0){
+        console.log(`export const resources = `+JSON.stringify(result,null,1));
+      }
+
+    })
+  })
+}
+
+module.exports = { download, extractInfobox, process, scrape, createResourceFile };
