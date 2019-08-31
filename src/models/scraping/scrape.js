@@ -6,12 +6,22 @@ const parser = require("node-html-parser");
 
 const normalizeName = name => name.replace(/\s/g, "_");
 
-const download = async name => {
+const download = async (name, force) => {
   const n = normalizeName(name);
-  const result = await fetch(base + n);
-  const text = await result.text();
-  fs.writeFileSync(path.join(__dirname, "data","html", n), text);
-  return text;
+  const htmlFilePath = path.join(__dirname, "data", "html", n);
+  return new Promise((resolve, reject) => {
+    fs.readFile(htmlFilePath, "utf8", async (err, text) => {
+      if (err) {
+        console.log("Download", htmlFilePath);
+        const result = await fetch(base + n);
+        text = await result.text();
+        fs.writeFileSync(htmlFilePath, text);
+      } else {
+        console.log("File", htmlFilePath, "exists");
+      }
+      resolve(text);
+    });
+  });
 };
 const extractInfobox = text => {
   const beginning = text.indexOf(`<table class="infoboxtable">`);
@@ -22,32 +32,46 @@ const process = (text, name) => {
   name = normalizeName(name);
   const table = parser.parse(text);
   const img = table.querySelector("a.image img").attributes.src;
-  fetch(img).then(res =>
-    res.body.pipe(fs.createWriteStream(path.join(__dirname,"data","img", name + ".png")))
-  );
+  const imgPath = path.join(__dirname, "data", "img", name + ".png");
+  if (fs.existsSync(imgPath)) {
+    console.log("Image", imgPath, "exists");
+  } else {
+      console.log("Download image",imgPath)
+    fetch(img).then(res => res.body.pipe(fs.createWriteStream(imgPath)));
+  }
   const rows = table.querySelectorAll("tr");
-  try{
-
-      const category = rows[2].querySelector("td").childNodes[0].rawText.trim();
-      
-      const type = rows[3].querySelector("td").childNodes[0].rawText.trim();
-      const rarity = rows[4].querySelector("td").childNodes[0].rawText.trim();
-  const value = rows[5].querySelector("td").childNodes[0].rawText.trim();
-  const used = rows[6].querySelector("td").childNodes[0].rawText.trim();
-  const symbol = rows[7].querySelector("td").childNodes[0].rawText.trim();
-  const release = rows[8].querySelector("td").childNodes[0].rawText.trim();
-  const data={name,category,type,rarity,value,used,symbol,release}
-  fs.writeFileSync(path.join(__dirname, "data","json", name+".json"), JSON.stringify(data,null,2));
-} catch(e){
- console.error(e)
-}
-  
+  const data = {};
+  try {
+    rows.slice(0).forEach((row, i) => {
+      // console.log(row)
+      const keyEl = row.querySelector("th");
+      let key;
+      if (keyEl) {
+        key = keyEl.childNodes[0].rawText.trim();
+      } else {
+        key = row;
+      }
+      const valueEl = row.querySelector("td");
+      let value;
+      if (valueEl) {
+        value = valueEl.childNodes[0].rawText.trim();
+      } else {
+        value = "";
+      }
+      data[key] = value;
+    });
+  } catch (e) {
+    console.error(e);
+  }
+  fs.writeFileSync(
+    path.join(__dirname, "data", "json", name + ".json"),
+    JSON.stringify(data, null, 2)
+  );
 };
-const scrape=async (name)=>{
-    let text=await download(name);
-    text=extractInfobox(text);
-    process(text,name);
-}
+const scrape = async name => {
+  let text = await download(name);
+  text = extractInfobox(text);
+  process(text, name);
+};
 
-
-module.exports = { download, extractInfobox, process,scrape };
+module.exports = { download, extractInfobox, process, scrape };
