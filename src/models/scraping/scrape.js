@@ -12,12 +12,12 @@ const download = async (name, force) => {
   return new Promise((resolve, reject) => {
     fs.readFile(htmlFilePath, "utf8", async (err, text) => {
       if (err) {
-        console.log("Download", htmlFilePath,++downloadCount);
+        console.error("Download", htmlFilePath,++downloadCount);
         const result = await fetch(base + n);
         text = await result.text();
         fs.writeFileSync(htmlFilePath, text);
       } else {
-        console.log("File", htmlFilePath, "exists");
+        // console.error("File", htmlFilePath, "exists");
       }
       resolve(text);
     });
@@ -32,11 +32,11 @@ const process = (text, name) => {
   name = normalizeName(name);
   const table = parser.parse(text);
   const img = table.querySelector("a.image img").attributes.src;
-  const imgPath = path.join(__dirname, "data", "img", name + ".png");
+  const imgPath = path.join(__dirname, "..", "..",'..',"public","img", name + ".png");
   if (fs.existsSync(imgPath)) {
-    console.log("Image", imgPath, "exists");
+    // console.error("Image", imgPath, "exists");
   } else {
-      console.log("Download image",imgPath)
+      console.error("Download image",imgPath)
     fetch(img).then(res => res.body.pipe(fs.createWriteStream(imgPath)));
   }
   const rows = table.querySelectorAll("tr");

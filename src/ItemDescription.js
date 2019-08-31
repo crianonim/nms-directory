@@ -9,10 +9,10 @@ export default ({item,setActiveItem})=>{
          <img class="resource_image" alt={item.name} src={"img/"+item.name.replace(/\s/g,'_')+".png"}/>
          <h1>{item.name}</h1>
         <h3>{item.name} 
-        {item.abbreviation? <span className="abbr"> ({item.abbreviation}) </span>:null}
-         is <span className='rarity'> {item.rarity} </span> 
+        {item.abbreviation? <span className="abbr"> ({item.abbreviation})</span>:null}
+         {" "} is <span className='rarity'> {item.rarity} </span> 
          <span className='category'> {item.category} </span> 
-         {item.price?  <span className="price">worth {item.price} </span>:null}</h3>
+         {item.price?  <span className="price">worth <span className="price-color">{item.price}</span> </span>:null}</h3>
          {item.usedFor && <h4>Used for {item.usedFor}</h4>}
         {model.recipesThatProduceInRefiner(item.name).length ? (
               <>
