@@ -10,7 +10,7 @@ const download = async name => {
   const n = normalizeName(name);
   const result = await fetch(base + n);
   const text = await result.text();
-  fs.writeFileSync(path.join(__dirname, "data", n), text);
+  fs.writeFileSync(path.join(__dirname, "data","html", n), text);
   return text;
 };
 const extractInfobox = text => {
@@ -23,7 +23,7 @@ const process = (text, name) => {
   const table = parser.parse(text);
   const img = table.querySelector("a.image img").attributes.src;
   fetch(img).then(res =>
-    res.body.pipe(fs.createWriteStream(path.join(__dirname,"data", name + ".png")))
+    res.body.pipe(fs.createWriteStream(path.join(__dirname,"data","img", name + ".png")))
   );
   const rows = table.querySelectorAll("tr");
   try{
@@ -37,9 +37,9 @@ const process = (text, name) => {
   const symbol = rows[7].querySelector("td").childNodes[0].rawText.trim();
   const release = rows[8].querySelector("td").childNodes[0].rawText.trim();
   const data={name,category,type,rarity,value,used,symbol,release}
-  fs.writeFileSync(path.join(__dirname, "data", name+".json"), JSON.stringify(data,null,2));
+  fs.writeFileSync(path.join(__dirname, "data","json", name+".json"), JSON.stringify(data,null,2));
 } catch(e){
-    
+ console.error(e)
 }
   
 };
