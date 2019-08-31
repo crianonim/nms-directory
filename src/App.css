@@ -16,3 +16,7 @@
     height:95vh;
     overflow-y: scroll;
 }
+.resource_image {
+    width: 200px;
+    float:right;
+}

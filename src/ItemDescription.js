@@ -6,8 +6,14 @@ export default ({item,setActiveItem})=>{
     
     return (
         <>
+         <img class="resource_image" alt={item.name} src={"img/"+item.name.replace(/\s/g,'_')+".png"}/>
          <h1>{item.name}</h1>
-        <h3>{item.name} ({item.abbreviation}) is {item.rarity} {item.category} worth {item.price}</h3>
+        <h3>{item.name} 
+        {item.abbreviation? <span className="abbr"> ({item.abbreviation}) </span>:null}
+         is <span className='rarity'> {item.rarity} </span> 
+         <span className='category'> {item.category} </span> 
+         {item.price?  <span className="price">worth {item.price} </span>:null}</h3>
+         {item.usedFor && <h4>Used for {item.usedFor}</h4>}
         {model.recipesThatProduceInRefiner(item.name).length ? (
               <>
                 <h2>Can be Produced in Refiner</h2>
