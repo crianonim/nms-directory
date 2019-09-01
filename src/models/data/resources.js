@@ -6,7 +6,7 @@ export const resources = [
  },
  {
   "name": "Access Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction item"
  },
  {
@@ -283,7 +283,7 @@ export const resources = [
  },
  {
   "name": "Climb Ladder",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction item"
  },
  {
@@ -312,72 +312,72 @@ export const resources = [
  },
  {
   "name": "Concrete-Framed Glass Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Arch",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Door Frame",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Doorway",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Floor Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Frontage",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Half Arch",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Half Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Roof",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Roof Corner",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Roof Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Concrete Window Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
@@ -439,12 +439,12 @@ export const resources = [
  },
  {
   "name": "Cuboid Inner Door",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction module"
  },
  {
   "name": "Cuboid Inner Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction module"
  },
  {
@@ -469,27 +469,27 @@ export const resources = [
  },
  {
   "name": "Cuboid Room Frame",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction module"
  },
  {
   "name": "Curved Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
   "name": "Curved Cuboid Roof",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction module"
  },
  {
   "name": "Curved Cuboid Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction module"
  },
  {
   "name": "Curved Freighter Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -499,12 +499,12 @@ export const resources = [
  },
  {
   "name": "Cylindrical Room",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
   "name": "Cylindrical Room Frame",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -574,7 +574,7 @@ export const resources = [
  },
  {
   "name": "Door",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Room Parts"
  },
  {
@@ -709,17 +709,17 @@ export const resources = [
  },
  {
   "name": "Freighter Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Freighter Interior Module"
  },
  {
   "name": "Freighter Cross Junction",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Freighter Interior Module"
  },
  {
   "name": "Freighter Junction",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Freighter Interior Module"
  },
  {
@@ -803,12 +803,12 @@ export const resources = [
  },
  {
   "name": "Glass Cuboid Room",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
   "name": "Glass Roofed Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -891,7 +891,7 @@ export const resources = [
  },
  {
   "name": "Holo-door",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Component"
  },
  {
@@ -979,7 +979,7 @@ export const resources = [
  },
  {
   "name": "L-Shaped Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -1122,42 +1122,42 @@ export const resources = [
  },
  {
   "name": "Metal-Framed Glass Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Arch",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Door Frame",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Doorway",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Floor Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Frontage",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Half Arch",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Half Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
@@ -1168,27 +1168,27 @@ export const resources = [
  },
  {
   "name": "Metal Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Roof",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Roof Corner",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Roof Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Metal Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
@@ -1199,7 +1199,7 @@ export const resources = [
  },
  {
   "name": "Metal Window Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
@@ -1423,7 +1423,7 @@ export const resources = [
  },
  {
   "name": "Potted Plant",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Decoration"
  },
  {
@@ -1575,17 +1575,17 @@ export const resources = [
  },
  {
   "name": "Short Concrete Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Short Metal Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Short Wooden Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
@@ -1614,27 +1614,27 @@ export const resources = [
  },
  {
   "name": "Sloping Concrete Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Sloping Metal Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Sloping Wood Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Small Concrete Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Small Concrete Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
@@ -1644,17 +1644,17 @@ export const resources = [
  },
  {
   "name": "Small Metal Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Small Metal Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Small Wood Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wood Construction Component"
  },
  {
@@ -1668,7 +1668,7 @@ export const resources = [
  },
  {
   "name": "Small Wooden Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
@@ -1702,7 +1702,7 @@ export const resources = [
  },
  {
   "name": "Solid Cube",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Decoration"
  },
  {
@@ -1718,7 +1718,7 @@ export const resources = [
  },
  {
   "name": "Square Room",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -1768,7 +1768,7 @@ export const resources = [
  },
  {
   "name": "Straight Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -1793,7 +1793,7 @@ export const resources = [
  },
  {
   "name": "T-Shaped Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {
@@ -1829,17 +1829,17 @@ export const resources = [
  },
  {
   "name": "Thin Concrete Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Concrete Construction Component"
  },
  {
   "name": "Thin Metal Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Metal Construction Component"
  },
  {
   "name": "Thin Wooden Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
@@ -1880,7 +1880,7 @@ export const resources = [
  },
  {
   "name": "Viewing Sphere",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Construction module"
  },
  {
@@ -1941,77 +1941,77 @@ export const resources = [
  },
  {
   "name": "Wood-Framed Glass Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wood Floor Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Arch",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Doorway",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Door Frame",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Frontage",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Half Arch",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Half Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Ramp",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Roof",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Roof Corner",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Roof Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Wall",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "Wooden Window Panel",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Wooden Construction Component"
  },
  {
   "name": "X-Shaped Corridor",
-  "category": "Base building",
+  "category": "Base Building",
   "type": "Structure"
  },
  {

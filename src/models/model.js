@@ -81,4 +81,34 @@ export const toggleStarred=(id)=>{
 
 items= [...items,...fillMissingWithEmptyData()]
 
+export const getItemTypes=()=>{
+    const types={};
+    const untyped=[];
+    items.forEach(item=>{
+        if (item.type){
+            types[item.type]=types[item.type]?[...types[item.type],item]:[item]
+        } else {
+            untyped.push(item);
+        }
+    })
+    const result = Object.entries({...types,none:untyped})
+    console.log({result})
+    return result
+}
+export const getItemCategories=()=>{
+    const categories={};
+    const untyped=[];
+    items.forEach(item=>{
+        if (item.category){
+            categories[item.category]=categories[item.category]?[...categories[item.category],item]:[item]
+        } else {
+            untyped.push(item);
+        }
+    })
+    const result = Object.entries({...categories,none:untyped})
+    console.log({result})
+    return result
+}
+// getItemTypes();
+// getItemCategories();
 

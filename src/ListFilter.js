@@ -33,7 +33,7 @@ const ListFilter = ({ setActiveList, items }) => {
       </div>
       <div className="other-filters">
         <div>
-  Showing {showingCount} of {items.length}}
+  Showing {showingCount} of {items.length}
         </div>
       </div>
     </div>
