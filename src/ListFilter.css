@@ -1,0 +1,7 @@
+.list-filter {
+    display: flex;
+
+}
+.list-filter-input {
+    flex-grow: 1;
+}
