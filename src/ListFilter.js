@@ -1,14 +1,25 @@
 import React, { useState } from "react";
 import "./ListFilter.css";
-
+import { getItemCategories } from './models/model'
+const categories=getItemCategories();
+const filterByName=(items,name)=>{
+  return items.filter(item=>item.name.toLowerCase().includes(name.toLowerCase()))
+}
 const ListFilter = ({ setActiveList, items }) => {
   const [nameFilter, setNameFilter] = useState("");
+  const [categoryFilter,setCategoryFilter] =useState(null);
   const [showFilters, setShowFilters] = useState(false);
   const [showingCount,setShowingCount] = useState(items.length);
-  const filterList = newFilter => {
-    setNameFilter(newFilter);
-    const list=items.filter(item =>
-      item.name.toLowerCase().includes(newFilter.toLowerCase()))
+  const filterList = (name,category) => {
+    const nameF=name!==null?name:nameFilter;
+    setNameFilter(nameF);
+    let list=items.filter(item =>item.name.toLowerCase().includes(name||nameF.toLowerCase()))
+    const categoryF=category!==null?category:categoryFilter;
+    setCategoryFilter(categoryF);
+    if (categoryF && categoryF!=='All'){
+      const categoryList=categories.find(el=>el[0]===categoryF)[1].map(el=>el.name)
+      list=list.filter(item=>categoryList.includes(item.name))
+    }
     setActiveList(list);
     setShowingCount(list.length)
   };
@@ -26,16 +37,23 @@ const ListFilter = ({ setActiveList, items }) => {
           value={nameFilter}
           className="list-filter-input"
           onChange={({ target }) => {
-            filterList(target.value);
+            filterList(target.value,null);
           }}
         ></input>
-        <button onClick={() => filterList("")}>x</button>
+        <button onClick={() => filterList("",null)}>x</button>
       </div>
-      <div className="other-filters">
+     {showFilters &&  (<div className="other-filters">
         <div>
   Showing {showingCount} of {items.length}
+
         </div>
-      </div>
+        <div className="category-dropdown">
+        Category &nbsp;  
+          <select onChange={(event)=>filterList(null,event.target.value)}>
+            {['All',...categories.map(el=>el[0])].map(category=>(<option key={category}>{category}</option>))}
+          </select>
+        </div>
+     </div>)}
     </div>
   );
 };

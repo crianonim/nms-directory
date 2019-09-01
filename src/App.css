@@ -14,6 +14,9 @@ main {
     margin-left: 1rem;
     flex-grow: 1;
 }
+.list-panel {
+    max-width: 14rem;
+}
 .list-panel, .item-info {
     height:95vh;
     overflow-y: scroll;
