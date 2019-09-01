@@ -1,6 +1,8 @@
 .App {
-    display: flex;
+}
+main {
     padding: 1rem;
+    display: flex;
 }
 .selected-item {
     color:chartreuse;
@@ -19,4 +21,9 @@
 .resource_image {
     width: 200px;
     float:right;
+}
+.hidden-list {
+    width: 0;
+    overflow: hidden;
+    transition: all 3s;
 }
