@@ -17,6 +17,7 @@ main {
 .list-panel, .item-info {
     height:95vh;
     overflow-y: scroll;
+    transition: all 1s;
 }
 .resource_image {
     width: 200px;
@@ -25,5 +26,4 @@ main {
 .hidden-list {
     width: 0;
     overflow: hidden;
-    transition: all 3s;
 }
