@@ -53,6 +53,18 @@ const ListFilter = ({ setActiveList, items }) => {
             {['All',...categories.map(el=>el[0])].map(category=>(<option key={category}>{category}</option>))}
           </select>
         </div>
+        <div className="sorting">Sort
+          <select defaultValue={'None'} onChange={({target})=>{
+            const {value}=target;
+            if (value==="A->B"){
+              items.sort();
+            }
+          }}>
+            <option>A->B</option>
+            <option>Worth</option>
+            <option>None</option>
+          </select>
+        </div>
      </div>)}
     </div>
   );
