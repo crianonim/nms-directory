@@ -1,33 +1,38 @@
-import React, { useState, useRef } from "react";
+import React, { useState} from "react";
 import "./App.css";
 import * as model from "./models/model";
 import ItemDescription from "./ItemDescription";
 import ItemList from "./ItemList";
 import ListFilter from "./ListFilter";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretRight, faCaretDown } from "@fortawesome/free-solid-svg-icons";
 function App() {
   const { items } = model.list();
 
   const [activeList, setActiveList] = useState(items);
   const [activeItem, setActiveItem] = useState(null);
-  const listPanel = useRef(null);
+  const [isShowList, setIsShowList] = useState(true);
   return (
     <div className="App">
       <button
         onClick={() => {
-          listPanel.current.classList.toggle("hidden-list");
+          setIsShowList(!isShowList);
         }}
->List</button>
+      >
+        <FontAwesomeIcon icon={isShowList ? faCaretDown : faCaretRight} />
+      </button>
 
       <main>
-        <div className="list-panel" ref={listPanel}>
-          <ListFilter setActiveList={setActiveList} items={items} />
-          <ItemList
-            setActiveItem={setActiveItem}
-            activeList={activeList}
-            selectedItem={activeItem}
-          />
-        </div>
+        {isShowList && (
+          <div className="list-panel">
+            <ListFilter setActiveList={setActiveList} items={items} />
+            <ItemList
+              setActiveItem={setActiveItem}
+              activeList={activeList}
+              selectedItem={activeItem}
+            />
+          </div>
+        )}
         <div className="item-info">
           {activeItem ? (
             <>
