@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState} from "react";
 import "./App.css";
 import * as model from "./models/model";
 import ItemDescription from "./ItemDescription";
