@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-import "./App.css";
+import "./App.sass";
 import * as model from "./models/model";
 import ItemDescription from "./ItemDescription";
 import ItemList from "./ItemList";

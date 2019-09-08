@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ListFilter.css";
+import "./ListFilter.sass";
 import { getItemCategories } from './models/model'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, faCaretDown, faTimes } from "@fortawesome/free-solid-svg-icons";
