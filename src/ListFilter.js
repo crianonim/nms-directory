@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ListFilter.css";
+import "./ListFilter.sass";
 import { getItemCategories } from './models/model'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, faCaretDown, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -46,16 +46,16 @@ const ListFilter = ({ setActiveList, items }) => {
       </div>
      {showFilters &&  (<div className="other-filters">
         <div>
-  Showing {showingCount} of {items.length}
+  Showing {showingCount} of {items.length} items
 
         </div>
         <div className="category-dropdown">
-        Category &nbsp;  
+        Category:  
           <select onChange={(event)=>filterList(null,event.target.value)}>
             {['All',...categories.map(el=>el[0])].map(category=>(<option key={category}>{category}</option>))}
           </select>
         </div>
-        <div className="sorting">Sort
+        <div className="sorting">Sort &nbsp;
           <select defaultValue={'None'} onChange={({target})=>{
             const {value}=target;
             if (value==="A->B"){

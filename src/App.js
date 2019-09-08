@@ -1,11 +1,12 @@
 import React, { useState} from "react";
-import "./App.css";
+import "./App.sass";
 import * as model from "./models/model";
 import ItemDescription from "./ItemDescription";
 import ItemList from "./ItemList";
 import ListFilter from "./ListFilter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import NMSLogo from "./assets/logo-nms.png";
 function App() {
   const { items } = model.list();
 
@@ -14,13 +15,19 @@ function App() {
   const [isShowList, setIsShowList] = useState(true);
   return (
     <div className="App">
+      <header>
+
       <button
         onClick={() => {
           setIsShowList(!isShowList);
         }}
-      >
+        >
         <FontAwesomeIcon icon={isShowList ? faCaretDown : faCaretRight} />
       </button>
+      <img src={NMSLogo} alt="logo"/>
+      <span className="subtitle">Crafting Directory</span>
+        </header>
+      
 
       <main>
         {isShowList && (

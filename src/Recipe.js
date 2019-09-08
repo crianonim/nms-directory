@@ -7,9 +7,9 @@ const Recipe = ({recipe,setActiveItem,selectedItem})=>{
                               setActiveItem(recipe.result.name);
                             }}>{recipe.result.name} </span>
                                  ( {recipe.result.amount}) ={" "}
-                        {recipe.ingredients.map(i => (
+                        {recipe.ingredients.map( (i,j) => (
                           <span
-                            key={i.name}
+                            key={j}
                             onClick={() => {
                               setActiveItem(i.name);
                             }}

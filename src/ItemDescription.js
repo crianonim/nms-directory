@@ -7,7 +7,7 @@ export default ({item,setActiveItem})=>{
     return (
         <>
          <img className="resource_image" alt={item.name} src={"img/"+item.name.replace(/\s/g,'_')+".png"}/>
-         <h1>{item.name}</h1>
+         <h1 className="item-name">{item.name}</h1>
         <h3>{item.name} 
         {item.abbreviation? <span className="abbr"> ({item.abbreviation})</span>:null}
          {" "} is <span className='rarity'> {item.rarity} </span> 
