@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./ListFilter.css";
 import { getItemCategories } from './models/model'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretRight, faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faCaretRight, faCaretDown, faTimes } from "@fortawesome/free-solid-svg-icons";
 const categories=getItemCategories();
 const filterByName=(items,name)=>{
   return items.filter(item=>item.name.toLowerCase().includes(name.toLowerCase()))
@@ -42,7 +42,7 @@ const ListFilter = ({ setActiveList, items }) => {
             filterList(target.value,null);
           }}
         ></input>
-        <button onClick={() => filterList("",null)}>x</button>
+        <button onClick={() => filterList("",null)}><FontAwesomeIcon icon={faTimes}/></button>
       </div>
      {showFilters &&  (<div className="other-filters">
         <div>
