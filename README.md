@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# No Man's Sky Directory
+
+Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.
+
+![](https://i.imgur.com/MbCTGDW.png)
+
+## Problem / Requirements
+I would like to...
+- see details of all materials available in the game
+- learn what recipes there are to craft/refine given material
+- check what a given material is used for
+- sort and filter material list using various criteria
+## Tech stack used to solve
+- React
+- Sass
+## Learning Outcomes
+- React with hooks
+- Scraping the outside sources (game wikipedia pages) to obtain data
+- Process different data sources in various formats into usable data model object
 
 ## Available Scripts
 
